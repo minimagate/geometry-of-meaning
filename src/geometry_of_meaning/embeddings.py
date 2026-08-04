@@ -71,9 +71,6 @@ def embed_texts(
     """
     Embed a list of texts using the specified model.
 
-    This is a stub implementation. To enable actual embedding, install the
-    optional 'embeddings' dependencies and uncomment the implementation below.
-
     Args:
         texts: List of text strings to embed.
         model_id: Model identifier from the registry.
@@ -93,49 +90,64 @@ def embed_texts(
 
     model_info = get_model_info(model_id)
 
-    # TODO: Implement actual embedding using sentence-transformers
-    # ------------------------------------------------------------
-    # from sentence_transformers import SentenceTransformer
-    #
-    # model = _load_model(model_id, device)
-    #
-    # if "e5" in model_id.lower():
-    #     texts = [f"query: {t}" for t in texts]
-    #
-    # embeddings = model.encode(
-    #     texts,
-    #     batch_size=batch_size,
-    #     normalize_embeddings=normalize,
-    #     show_progress_bar=True,
-    # )
-    # return np.array(embeddings)
+    try:
+        from sentence_transformers import SentenceTransformer  # noqa: F401
+    except ImportError:
+        raise ImportError(
+            "sentence-transformers is required for embedding. "
+            "Install it with: pip install sentence-transformers torch"
+        )
 
-    raise NotImplementedError(
-        f"Embedding not yet implemented. Model '{model_id}' ({model_info['hf_name']}) "
-        f"is registered but the embedding backend is a stub. "
-        f"Install sentence-transformers and torch, then implement embed_texts()."
+    model = _load_model(model_id, device, use_cache)
+
+    # E5 models use "passage:" prefix for symmetric comparison tasks.
+    if "e5" in model_id.lower():
+        texts = [f"passage: {t}" for t in texts]
+
+    embeddings = model.encode(
+        texts,
+        batch_size=batch_size,
+        normalize_embeddings=normalize,
+        show_progress_bar=True,
     )
+    return np.array(embeddings)
 
 
-def _load_model(model_id: str, device: Optional[str] = None) -> Any:
+# Module-level model cache
+_MODEL_CACHE: dict[str, Any] = {}
+
+
+def _load_model(
+    model_id: str,
+    device: Optional[str] = None,
+    use_cache: bool = True,
+) -> Any:
     """
     Load and cache an embedding model.
 
     Args:
         model_id: Model identifier from the registry.
         device: Device string. Auto-detected if None.
+        use_cache: Whether to cache and reuse loaded models.
 
     Returns:
         A SentenceTransformer model instance.
     """
-    # TODO: Implement model loading with caching
-    # from sentence_transformers import SentenceTransformer
-    #
-    # model_info = get_model_info(model_id)
-    # model = SentenceTransformer(model_info["hf_name"], device=device)
-    # return model
+    from sentence_transformers import SentenceTransformer
 
-    raise NotImplementedError("Model loading not yet implemented.")
+    if use_cache and model_id in _MODEL_CACHE:
+        logger.debug(f"Returning cached model: {model_id}")
+        return _MODEL_CACHE[model_id]
+
+    model_info = get_model_info(model_id)
+    logger.info(f"Loading model: {model_info['hf_name']}")
+
+    model = SentenceTransformer(model_info["hf_name"], device=device)
+
+    if use_cache:
+        _MODEL_CACHE[model_id] = model
+
+    return model
 
 
 def normalize_embeddings(embeddings: np.ndarray) -> np.ndarray:

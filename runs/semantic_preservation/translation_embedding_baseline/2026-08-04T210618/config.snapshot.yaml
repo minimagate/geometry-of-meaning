@@ -1,0 +1,30 @@
+compression:
+  levels:
+  - 1.0
+embedding_models:
+- multilingual-e5-large
+experiment:
+  description: 'Baseline measurement of translation-induced embedding displacement.
+    Embeds all 12 canonical texts and their translations (en, it, zh, ja, da) without
+    any textual manipulation. Measures how far semantically equivalent texts drift
+    in embedding space purely due to translation.
+
+    '
+  id: translation_embedding_baseline
+  research_area: semantic_preservation
+languages:
+- en
+- it
+- zh
+- ja
+- da
+metrics:
+- cosine_similarity
+- euclidean_distance
+- pairwise_similarity_matrix
+- cross_language_centroid_distances
+output:
+  runs_dir: runs/semantic_preservation/translation_embedding_baseline
+  variants_dir: data/variants/semantic_preservation/translation_embedding_baseline
+random_seed: 42
+reference_language: en

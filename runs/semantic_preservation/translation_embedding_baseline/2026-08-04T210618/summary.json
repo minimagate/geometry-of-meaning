@@ -1,0 +1,220 @@
+{
+  "description": "Translation embedding baseline — zero-manipulation semantic distances",
+  "num_texts": 12,
+  "num_languages": 4,
+  "num_models": 1,
+  "num_measurements": 48,
+  "cosine_similarity_to_en_by_language": [
+    {
+      "language": "da",
+      "mean": 0.9027014722426733,
+      "std": 0.013189931952001448,
+      "min": 0.8847591876983643,
+      "max": 0.9268176555633545
+    },
+    {
+      "language": "it",
+      "mean": 0.9098627418279648,
+      "std": 0.010804105689126937,
+      "min": 0.8839890360832214,
+      "max": 0.9232528805732727
+    },
+    {
+      "language": "ja",
+      "mean": 0.8704476108153661,
+      "std": 0.01852362112807343,
+      "min": 0.8340586423873901,
+      "max": 0.8944998383522034
+    },
+    {
+      "language": "zh",
+      "mean": 0.8583892832199732,
+      "std": 0.018783849908376365,
+      "min": 0.82607102394104,
+      "max": 0.8896480798721313
+    }
+  ],
+  "euclidean_distance_to_en_by_language": [
+    {
+      "language": "da",
+      "mean": 0.4401858101288478,
+      "std": 0.030156122382207454,
+      "min": 0.38257646560668945,
+      "max": 0.48008501529693604
+    },
+    {
+      "language": "it",
+      "mean": 0.42392484347025555,
+      "std": 0.02476777988071437,
+      "min": 0.39178353548049927,
+      "max": 0.48168662190437317
+    },
+    {
+      "language": "ja",
+      "mean": 0.5078530261913935,
+      "std": 0.03603227868618046,
+      "min": 0.45934775471687317,
+      "max": 0.5760926604270935
+    },
+    {
+      "language": "zh",
+      "mean": 0.5311026697357496,
+      "std": 0.035442520664649396,
+      "min": 0.46979135274887085,
+      "max": 0.5897948741912842
+    }
+  ],
+  "cosine_similarity_to_en_by_text": [
+    {
+      "text_id": "einstein_special_relativity",
+      "mean": 0.8623266220092773,
+      "std": 0.03823684024768723,
+      "count": 4
+    },
+    {
+      "text_id": "declaration_human_equality",
+      "mean": 0.8744909167289734,
+      "std": 0.03625502011209169,
+      "count": 4
+    },
+    {
+      "text_id": "odyssey_opening_invocation",
+      "mean": 0.8786837607622147,
+      "std": 0.020871663132576962,
+      "count": 4
+    },
+    {
+      "text_id": "metamorphosis_opening",
+      "mean": 0.8798335939645767,
+      "std": 0.03448550052388382,
+      "count": 4
+    },
+    {
+      "text_id": "hamlet_to_be_or_not_to_be",
+      "mean": 0.8801397234201431,
+      "std": 0.014094286265895383,
+      "count": 4
+    },
+    {
+      "text_id": "darwin_natural_selection",
+      "mean": 0.8816713094711304,
+      "std": 0.02807068490400959,
+      "count": 4
+    },
+    {
+      "text_id": "douglass_learning_to_read",
+      "mean": 0.883570671081543,
+      "std": 0.03335604647097287,
+      "count": 4
+    },
+    {
+      "text_id": "pride_and_prejudice_opening",
+      "mean": 0.8875255137681961,
+      "std": 0.02884098811792881,
+      "count": 4
+    },
+    {
+      "text_id": "descartes_methodic_doubt",
+      "mean": 0.8922697156667709,
+      "std": 0.020163008014602288,
+      "count": 4
+    },
+    {
+      "text_id": "marcus_aurelius_control_and_judgment",
+      "mean": 0.8981287181377411,
+      "std": 0.018821679289240015,
+      "count": 4
+    },
+    {
+      "text_id": "wollstonecraft_womens_education",
+      "mean": 0.9016327261924744,
+      "std": 0.019197247668345862,
+      "count": 4
+    },
+    {
+      "text_id": "invictus",
+      "mean": 0.903930053114891,
+      "std": 0.020873454435584072,
+      "count": 4
+    }
+  ],
+  "cosine_similarity_to_en_by_category": [
+    {
+      "category": "scientific",
+      "mean": 0.8719989657402039,
+      "std": 0.03272939215383275,
+      "count": 8
+    },
+    {
+      "category": "political",
+      "mean": 0.8744909167289734,
+      "std": 0.03625502011209169,
+      "count": 4
+    },
+    {
+      "category": "drama",
+      "mean": 0.8801397234201431,
+      "std": 0.014094286265895383,
+      "count": 4
+    },
+    {
+      "category": "autobiography",
+      "mean": 0.883570671081543,
+      "std": 0.03335604647097287,
+      "count": 4
+    },
+    {
+      "category": "novel",
+      "mean": 0.8836795538663864,
+      "std": 0.029716489618042338,
+      "count": 8
+    },
+    {
+      "category": "poetry",
+      "mean": 0.8913069069385529,
+      "std": 0.023569753077972454,
+      "count": 8
+    },
+    {
+      "category": "philosophy",
+      "mean": 0.8973437199989954,
+      "std": 0.018007674447773837,
+      "count": 12
+    }
+  ],
+  "overall": {
+    "mean_cosine_similarity_to_en": 0.8853502770264944,
+    "std_cosine_similarity_to_en": 0.026523446399483144,
+    "min_cosine_similarity_to_en": 0.82607102394104,
+    "max_cosine_similarity_to_en": 0.9268176555633545,
+    "mean_euclidean_distance_to_en": 0.4757665873815616
+  },
+  "cross_language_centroid_distances": {
+    "multilingual-e5-large": {
+      "da_en": 0.0645706057548523,
+      "da_it": 0.07735419273376465,
+      "da_ja": 0.10176938772201538,
+      "da_zh": 0.11445659399032593,
+      "en_it": 0.058823347091674805,
+      "en_ja": 0.07795459032058716,
+      "en_zh": 0.09264445304870605,
+      "it_ja": 0.08040362596511841,
+      "it_zh": 0.10094797611236572,
+      "ja_zh": 0.05935013294219971
+    }
+  },
+  "text_self_consistency": {
+    "einstein_special_relativity": 0.8583315551280976,
+    "odyssey_opening_invocation": 0.8657657742500305,
+    "declaration_human_equality": 0.8663639843463897,
+    "darwin_natural_selection": 0.872672301530838,
+    "douglass_learning_to_read": 0.8747144997119903,
+    "metamorphosis_opening": 0.8760220408439636,
+    "pride_and_prejudice_opening": 0.8760729372501374,
+    "hamlet_to_be_or_not_to_be": 0.8762297570705414,
+    "marcus_aurelius_control_and_judgment": 0.8859169483184814,
+    "descartes_methodic_doubt": 0.8861886620521545,
+    "wollstonecraft_womens_education": 0.8901239991188049,
+    "invictus": 0.8953453898429871
+  }
+}
