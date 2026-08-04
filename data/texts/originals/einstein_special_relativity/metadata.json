@@ -1,15 +1,15 @@
 {
   "text_id": "einstein_special_relativity",
-  "title": "On the Electrodynamics of Moving Bodies — Opening",
+  "title": "On the Electrodynamics of Moving Bodies \u2014 Opening",
   "author": "Albert Einstein",
   "category": "scientific",
   "original_language": "de",
-  "source": "Zur Elektrodynamik bewegter Körper, Annalen der Physik, Band 17, S. 891–921, 1905",
+  "source": "Zur Elektrodynamik bewegter K\u00f6rper, Annalen der Physik, Band 17, S. 891\u2013921, 1905",
   "source_url": "https://einsteinpapers.press.princeton.edu/vol2-doc/312",
   "publication_year": 1905,
   "copyright": "public_domain",
   "selection_notes": "Opening paragraph of the 1905 paper. Einstein introduces the motivating problem for special relativity: the asymmetry in Maxwell's electrodynamics when applied to moving bodies. Using the magnet-and-conductor thought experiment, he demonstrates that the observed phenomenon depends only on relative motion, while the prevailing theoretical description distinguishes between the two cases. This passage encapsulates the empirical motivation that leads to the postulation of the relativity principle and the constancy of the speed of light.",
-  "normalization_notes": "Original German orthography preserved, including 'daß' (not 'dass'), 'elektromotorische' (not 'elektromagnetische'). Fraktur characters normalized to modern script. The text follows the published Annalen der Physik version as reproduced in The Collected Papers of Albert Einstein (Princeton University Press).",
-  "word_count_original": 175,
+  "normalization_notes": "Original German orthography preserved, including 'da\u00df' (not 'dass'), 'elektromotorische' (not 'elektromagnetische'). Fraktur characters normalized to modern script. The text follows the published Annalen der Physik version as reproduced in The Collected Papers of Albert Einstein (Princeton University Press).",
+  "word_count_original": 180,
   "_text_file": "source.txt"
 }

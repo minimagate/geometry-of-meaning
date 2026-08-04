@@ -1,15 +1,15 @@
 {
   "text_id": "descartes_methodic_doubt",
-  "title": "Discourse on the Method — Methodic Doubt and the Cogito",
-  "author": "René Descartes",
+  "title": "Discourse on the Method \u2014 Methodic Doubt and the Cogito",
+  "author": "Ren\u00e9 Descartes",
   "category": "philosophy",
   "original_language": "fr",
-  "source": "Discours de la méthode pour bien conduire sa raison, et chercher la vérité dans les sciences, first edition, Ian Maire, Leiden, 1637",
+  "source": "Discours de la m\u00e9thode pour bien conduire sa raison, et chercher la v\u00e9rit\u00e9 dans les sciences, first edition, Ian Maire, Leiden, 1637",
   "source_url": "https://www.gutenberg.org/ebooks/59",
   "publication_year": 1637,
   "copyright": "public_domain",
   "selection_notes": "Part IV of the Discourse on the Method. This passage presents the full sequence of Descartes's methodic doubt: the resolution to reject everything admitting the slightest doubt, the three grounds of doubt (sensory deception, reasoning errors, the dream argument), and the discovery of the cogito as the first indubitable truth. The extract ends with Descartes's declaration that 'I think, therefore I am' can serve as the first principle of philosophy. The passage is a continuous argument that moves from systematic doubt through skeptical scenarios to the foundational certainty of self-consciousness. It preserves all three classical skeptical stages (senses, reason, dreams) and the transition to the cogito.",
-  "normalization_notes": "Text follows a modernized French orthography standard (e.g., 'j'étais' rather than 1637 'j'estois', 'rejetai' rather than 'rejettay'). This follows the standard editorial practice for modern French editions, analogous to how the Shakespeare text in this corpus uses modernized spelling. The 1637 edition used orthographic conventions that would be confusing to modern readers without scholarly benefit for semantic analysis. Accents and punctuation follow modern conventions. The original spelling 'paralogismes' (rather than modern 'paralogismes') is preserved as a technical term. Source text verified against the Adam & Tannery edition (vol. VI) as reproduced in Project Gutenberg EBook #59.",
-  "word_count_original": 275,
+  "normalization_notes": "Text follows a modernized French orthography standard (e.g., 'j'\u00e9tais' rather than 1637 'j'estois', 'rejetai' rather than 'rejettay'). This follows the standard editorial practice for modern French editions, analogous to how the Shakespeare text in this corpus uses modernized spelling. The 1637 edition used orthographic conventions that would be confusing to modern readers without scholarly benefit for semantic analysis. Accents and punctuation follow modern conventions. The original spelling 'paralogismes' (rather than modern 'paralogismes') is preserved as a technical term. Source text verified against the Adam & Tannery edition (vol. VI) as reproduced in Project Gutenberg EBook #59.",
+  "word_count_original": 250,
   "_text_file": "source.txt"
 }

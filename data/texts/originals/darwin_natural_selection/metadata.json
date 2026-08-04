@@ -1,6 +1,6 @@
 {
   "text_id": "darwin_natural_selection",
-  "title": "On the Origin of Species — Natural Selection",
+  "title": "On the Origin of Species \u2014 Natural Selection",
   "author": "Charles Darwin",
   "category": "scientific",
   "original_language": "en",
@@ -10,6 +10,6 @@
   "copyright": "public_domain",
   "selection_notes": "Chapter IV (Natural Selection), opening paragraph of the chapter section laying out the core argument for natural selection. This passage encapsulates the complete logical structure of Darwin's theory: the analogy with artificial selection, the complexity of ecological relations, the existence of heritable variation, differential survival, and the definition of natural selection as the differential preservation of favourable variations. The extract presents a self-contained scientific argument moving from question to definition in a single continuous paragraph.",
   "normalization_notes": "British spelling preserved as in the first edition ('favourable'). The passage follows the 1859 first edition text as reproduced in Project Gutenberg. The paragraph break after 'I call Natural Selection' is original to the first edition.",
-  "word_count_original": 175,
+  "word_count_original": 177,
   "_text_file": "source.txt"
 }

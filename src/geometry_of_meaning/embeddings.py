@@ -9,7 +9,7 @@ Provides a unified interface for embedding models, managing:
 """
 
 import logging
-from typing import Any, Optional
+from typing import Any
 
 import numpy as np
 
@@ -65,7 +65,7 @@ def embed_texts(
     model_id: str = "multilingual-e5-large",
     batch_size: int = 32,
     normalize: bool = True,
-    device: Optional[str] = None,
+    device: str | None = None,
     use_cache: bool = True,
 ) -> np.ndarray:
     """
@@ -88,15 +88,13 @@ def embed_texts(
     if not texts:
         raise ValueError("texts must not be empty")
 
-    model_info = get_model_info(model_id)
-
     try:
         from sentence_transformers import SentenceTransformer  # noqa: F401
-    except ImportError:
+    except ImportError as err:
         raise ImportError(
             "sentence-transformers is required for embedding. "
             "Install it with: pip install sentence-transformers torch"
-        )
+        ) from err
 
     model = _load_model(model_id, device, use_cache)
 
@@ -119,7 +117,7 @@ _MODEL_CACHE: dict[str, Any] = {}
 
 def _load_model(
     model_id: str,
-    device: Optional[str] = None,
+    device: str | None = None,
     use_cache: bool = True,
 ) -> Any:
     """

@@ -14,13 +14,11 @@ import logging
 import os
 import random
 import sys
-import time
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
-from typing import Any, Optional
+from typing import Any
 
 import yaml
-
 
 # ---------------------------------------------------------------------------
 # Configuration
@@ -153,7 +151,7 @@ def timestamp_now() -> str:
     Returns:
         Timestamp string, e.g., '2026-08-04T135700'.
     """
-    return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H%M%S")
+    return datetime.now(UTC).strftime("%Y-%m-%dT%H%M%S")
 
 
 def iso_timestamp() -> str:
@@ -163,7 +161,7 @@ def iso_timestamp() -> str:
     Returns:
         Timestamp string, e.g., '2026-08-04T13:57:00+00:00'.
     """
-    return datetime.now(timezone.utc).isoformat()
+    return datetime.now(UTC).isoformat()
 
 
 # ---------------------------------------------------------------------------
@@ -203,7 +201,7 @@ def set_seed(seed: int) -> None:
 
 def setup_logging(
     verbose: bool = False,
-    log_file: Optional[Path] = None,
+    log_file: Path | None = None,
 ) -> None:
     """
     Configure logging for experiment scripts.
@@ -232,7 +230,7 @@ def setup_logging(
 # ---------------------------------------------------------------------------
 
 
-def progress_bar(iterable, desc: str = "", total: Optional[int] = None):
+def progress_bar(iterable, desc: str = "", total: int | None = None):
     """
     Thin wrapper around tqdm for progress bars.
 

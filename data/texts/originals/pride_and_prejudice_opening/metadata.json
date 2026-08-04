@@ -1,6 +1,6 @@
 {
   "text_id": "pride_and_prejudice_opening",
-  "title": "Pride and Prejudice — Opening",
+  "title": "Pride and Prejudice \u2014 Opening",
   "author": "Jane Austen",
   "category": "novel",
   "original_language": "en",
@@ -9,7 +9,7 @@
   "publication_year": 1813,
   "copyright": "public_domain",
   "selection_notes": "Chapter 1 opening: from the famous first sentence through the first exchange between Mr. and Mrs. Bennet introducing the arrival of Mr. Bingley at Netherfield Park. The extract ends before Mrs. Bennet reveals the tenant's name, providing a self-contained narrative unit that establishes tone, irony, and the central thematic concern (marriage and social status).",
-  "normalization_notes": "Quotation marks standardized to double quotes. Original 1813 spelling ('neighbourhood', 'shewed' → 'showed') preserved from the first edition. Paragraph breaks follow the first edition structure.",
-  "word_count_original": 153,
+  "normalization_notes": "Quotation marks standardized to double quotes. Original 1813 spelling ('neighbourhood', 'shewed' \u2192 'showed') preserved from the first edition. Paragraph breaks follow the first edition structure.",
+  "word_count_original": 154,
   "_text_file": "source.txt"
 }

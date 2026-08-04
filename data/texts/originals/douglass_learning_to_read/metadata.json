@@ -1,6 +1,6 @@
 {
   "text_id": "douglass_learning_to_read",
-  "title": "Narrative of the Life of Frederick Douglass — Learning to Read",
+  "title": "Narrative of the Life of Frederick Douglass \u2014 Learning to Read",
   "author": "Frederick Douglass",
   "category": "autobiography",
   "original_language": "en",
@@ -10,6 +10,6 @@
   "copyright": "public_domain",
   "selection_notes": "Chapter VI. This passage presents one of the most significant moments in the Narrative: the episode in which Douglass overhears Mr. Auld's prohibition against teaching slaves to read and realizes that literacy is the pathway from slavery to freedom. The extract contains three structural elements essential for analysis: (1) the narrated event (Mrs. Auld's initial instruction and Mr. Auld's prohibition), (2) the direct quotation of the slaveholder's rationale (preserving the racial slur and the logic of enforced ignorance), and (3) Douglass's interpretive response (the 'new and special revelation' that literacy equals liberation). The passage preserves the autobiographical narrative frame, the argumentative structure of the slaveholder's position, and the causal link between literacy and freedom.",
   "normalization_notes": "Original 1845 spelling and punctuation preserved, including 'forbade', 'shewed', 'to wit'. The racial slur 'nigger' is preserved exactly as it appears in the original text; it is essential to the semantic content of the passage and the slaveholder's quoted speech. The em-dash conventions follow the original edition. Quotation marks are standard double quotes; the original uses single and double quotes as was conventional in 1845 American printing.",
-  "word_count_original": 249,
+  "word_count_original": 285,
   "_text_file": "source.txt"
 }

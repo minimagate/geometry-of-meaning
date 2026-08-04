@@ -1,6 +1,6 @@
 {
   "text_id": "metamorphosis_opening",
-  "title": "The Metamorphosis — Opening",
+  "title": "The Metamorphosis \u2014 Opening",
   "author": "Franz Kafka",
   "category": "novel",
   "original_language": "de",
@@ -9,7 +9,7 @@
   "publication_year": 1915,
   "copyright": "public_domain",
   "selection_notes": "Opening paragraphs of the novella. The extract begins with the famous first sentence announcing Gregor Samsa's transformation and continues through the description of his new insect body, his room, and his profession as a traveling salesman. The passage establishes the surreal premise, the claustrophobic setting, and the contrast between Gregor's extraordinary physical condition and his mundane concerns. It ends before the arrival of the office manager, providing a self-contained unit of Kafka's characteristic narrative voice.",
-  "normalization_notes": "Original German orthography preserved, including 'ungeheueren' (archaic form), 'panzerartig', 'Versteifungen'. Quotation marks use German chevron convention (»...«). Em-dashes preserved. Text follows the 1915 first edition as reproduced in Projekt Gutenberg-DE.",
-  "word_count_original": 182,
+  "normalization_notes": "Original German orthography preserved, including 'ungeheueren' (archaic form), 'panzerartig', 'Versteifungen'. Quotation marks use German chevron convention (\u00bb...\u00ab). Em-dashes preserved. Text follows the 1915 first edition as reproduced in Projekt Gutenberg-DE.",
+  "word_count_original": 139,
   "_text_file": "source.txt"
 }
