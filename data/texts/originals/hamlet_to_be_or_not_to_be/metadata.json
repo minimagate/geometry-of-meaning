@@ -1,0 +1,15 @@
+{
+  "text_id": "hamlet_to_be_or_not_to_be",
+  "title": "Hamlet — \"To be, or not to be\" Soliloquy",
+  "author": "William Shakespeare",
+  "category": "drama",
+  "original_language": "en",
+  "source": "The Tragedy of Hamlet, Prince of Denmark. The Folger Shakespeare Library Edition, based on the First Folio (1623) and Second Quarto (1604–1605)",
+  "source_url": "https://www.folger.edu/explore/shakespeares-works/hamlet/read/",
+  "publication_year": 1603,
+  "copyright": "public_domain",
+  "selection_notes": "Act 3, Scene 1, lines 64–98. The complete \"To be, or not to be\" soliloquy. This is the most famous passage in English literature and presents a self-contained philosophical meditation on existence, suffering, and the fear of death. The extract provides rich semantic structure: existential dilemma, enumeration of life's hardships, and the psychological mechanism of conscience inhibiting action. Line breaks follow standard modern editorial practice.",
+  "normalization_notes": "Spelling modernized per standard editorial practice (e.g., 'pourne' → 'bourne', 'pith' → 'pitch', 'dispriz'd' → 'despised'). Contractions preserved ('tis, th'oppressor's, th'unworthy). The text follows the widely accepted conflated text that combines Folio and Quarto readings. No silent emendations beyond standard editorial modernization.",
+  "word_count_original": 260,
+  "_text_file": "source.txt"
+}

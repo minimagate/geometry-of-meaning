@@ -18,6 +18,7 @@ logger = logging.getLogger(__name__)
 
 # Valid ISO 639-1 language codes used in this project
 VALID_LANGUAGES = {"en", "it", "zh", "ja", "da"}
+VALID_ORIGINAL_LANGUAGES = {"en", "it", "zh", "ja", "da", "de", "fr", "grc"}
 
 
 @dataclass
@@ -35,10 +36,10 @@ class OriginalText:
     def __post_init__(self) -> None:
         if not self.text_id:
             raise ValueError("text_id must not be empty")
-        if self.original_language not in VALID_LANGUAGES:
+        if self.original_language not in VALID_ORIGINAL_LANGUAGES:
             raise ValueError(
                 f"Invalid language '{self.original_language}'. "
-                f"Must be one of: {sorted(VALID_LANGUAGES)}"
+                f"Must be one of: {sorted(VALID_ORIGINAL_LANGUAGES)}"
             )
         if not self.text:
             raise ValueError("text must not be empty")
@@ -113,30 +114,38 @@ def load_original_text(originals_dir: Path, text_id: str) -> OriginalText:
 
     Args:
         originals_dir: Path to data/texts/originals/
-        text_id: The text identifier (matches filename, e.g., 'pride_and_prejudice_opening')
+        text_id: The text identifier (matches folder name, e.g., 'pride_and_prejudice_opening')
 
     Returns:
         An OriginalText dataclass instance.
 
     Raises:
-        FileNotFoundError: If the text file does not exist.
+        FileNotFoundError: If the text folder or its source.txt / metadata.json does not exist.
         ValueError: If the file contains invalid data.
     """
-    filepath = originals_dir / f"{text_id}.json"
-    if not filepath.exists():
-        raise FileNotFoundError(f"Original text not found: {filepath}")
+    text_dir = originals_dir / text_id
+    source_path = text_dir / "source.txt"
+    metadata_path = text_dir / "metadata.json"
 
-    with open(filepath, encoding="utf-8") as f:
-        data = json.load(f)
+    if not source_path.exists():
+        raise FileNotFoundError(f"Original text file not found: {source_path}")
+    if not metadata_path.exists():
+        raise FileNotFoundError(f"Original metadata file not found: {metadata_path}")
+
+    with open(metadata_path, encoding="utf-8") as f:
+        metadata = json.load(f)
+
+    with open(source_path, encoding="utf-8") as f:
+        text = f.read()
 
     return OriginalText(
-        text_id=data["text_id"],
-        title=data.get("title", ""),
-        author=data.get("author", "unknown"),
-        category=data.get("category", "unknown"),
-        original_language=data["original_language"],
-        text=data["text"],
-        metadata={k: v for k, v in data.items() if k not in OriginalText.__dataclass_fields__},
+        text_id=metadata["text_id"],
+        title=metadata.get("title", ""),
+        author=metadata.get("author", "unknown"),
+        category=metadata.get("category", "unknown"),
+        original_language=metadata["original_language"],
+        text=text,
+        metadata={k: v for k, v in metadata.items() if k not in OriginalText.__dataclass_fields__},
     )
 
 
@@ -314,7 +323,7 @@ def validate_text_record(data: dict[str, Any]) -> list[str]:
         errors.append("Missing required field: text_id")
     if "original_language" not in data:
         errors.append("Missing required field: original_language")
-    elif data["original_language"] not in VALID_LANGUAGES:
+    elif data["original_language"] not in VALID_ORIGINAL_LANGUAGES:
         errors.append(f"Invalid original_language: {data['original_language']}")
     if "text" not in data or not data["text"]:
         errors.append("Missing required field: text")

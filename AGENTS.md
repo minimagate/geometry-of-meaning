@@ -125,7 +125,14 @@ Use ISO 639-1 two-letter codes: `en`, `it`, `zh`, `ja`, `da`.
 
 ## Data Formats
 
-### Original text records (JSON)
+### Original text records
+
+Each original text is a folder under `data/texts/originals/<text_id>/` containing two files:
+
+- `source.txt` — the exact canonical passage (verbatim, no metadata)
+- `metadata.json` — all metadata fields (no `text` field)
+
+Example `metadata.json`:
 
 ```json
 {
@@ -134,8 +141,17 @@ Use ISO 639-1 two-letter codes: `en`, `it`, `zh`, `ja`, `da`.
   "author": "Jane Austen",
   "category": "novel",
   "original_language": "en",
-  "text": "It is a truth universally acknowledged..."
+  "source": "Pride and Prejudice, first edition, T. Egerton, London, 1813",
+  "copyright": "public_domain"
 }
+```
+
+Example `source.txt` (exact text only, no JSON wrapper):
+
+```text
+It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.
+
+However little known the feelings or views of such a man may be on his first entering a neighbourhood...
 ```
 
 ### Translation records (JSON)

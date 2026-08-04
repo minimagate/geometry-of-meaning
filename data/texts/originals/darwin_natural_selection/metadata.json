@@ -4,12 +4,12 @@
   "author": "Charles Darwin",
   "category": "scientific",
   "original_language": "en",
-  "text": "Can the principle of selection, which we have seen is so potent in the hands of man, apply in nature? I think we shall see that it can act most effectually. Let it be borne in mind how infinitely complex and close-fitting are the mutual relations of all organic beings to each other and to their physical conditions of life. Can it, then, be thought improbable, seeing that variations useful to man have undoubtedly occurred, that other variations useful in some way to each being in the great and complex battle of life, should sometimes occur in the course of thousands of generations? If such do occur, can we doubt (remembering that many more individuals are born than can possibly survive) that individuals having any advantage, however slight, over others, would have the best chance of surviving and of procreating their kind? On the other hand, we may feel sure that any variation in the least degree injurious would be rigidly destroyed. This preservation of favourable variations and the rejection of injurious variations, I call Natural Selection.",
   "source": "On the Origin of Species by Means of Natural Selection, first edition, John Murray, London, 1859",
   "source_url": "https://www.gutenberg.org/ebooks/1228",
   "publication_year": 1859,
   "copyright": "public_domain",
   "selection_notes": "Chapter IV (Natural Selection), opening paragraph of the chapter section laying out the core argument for natural selection. This passage encapsulates the complete logical structure of Darwin's theory: the analogy with artificial selection, the complexity of ecological relations, the existence of heritable variation, differential survival, and the definition of natural selection as the differential preservation of favourable variations. The extract presents a self-contained scientific argument moving from question to definition in a single continuous paragraph.",
   "normalization_notes": "British spelling preserved as in the first edition ('favourable'). The passage follows the 1859 first edition text as reproduced in Project Gutenberg. The paragraph break after 'I call Natural Selection' is original to the first edition.",
-  "word_count_original": 175
+  "word_count_original": 175,
+  "_text_file": "source.txt"
 }

@@ -2,7 +2,7 @@
 
 Complete canonical corpus: **10 texts** across **5 comparison languages** (en, it, zh, ja, da).
 
-Last updated: 2025-07-11
+Last updated: 2025-07-28
 
 ---
 
@@ -52,4 +52,4 @@ For texts originally in one of the 5 comparison languages, the canonical version
 - **marcus_aurelius_control_and_judgment**: Greek text (87 words) is shorter than the 150-word target. The passage is a complete meditation (Book II, section 1) that cannot be extended without crossing into a new topic. Greek text should be verified against the Loeb edition.
 - **descartes_methodic_doubt**: Uses modernized French orthography rather than 1637 original spelling.
 - All 6 new texts and their 30 translations are marked `validation_status: unreviewed` pending human review.
-- Original languages `de` (German), `fr` (French), and `grc` (Ancient Greek) are not in the `VALID_LANGUAGES` set in `data.py`, which may cause `OriginalText.__post_init__` to raise ValueError. This is a pre-existing issue also affecting the original 4 entries.
+- **Structure**: As of 2025-07-28, originals use a folder-per-text layout (`<text_id>/source.txt` + `<text_id>/metadata.json`).
