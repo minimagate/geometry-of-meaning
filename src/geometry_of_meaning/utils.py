@@ -181,12 +181,14 @@ def set_seed(seed: int) -> None:
 
     try:
         import numpy as np
+
         np.random.seed(seed)
     except ImportError:
         pass
 
     try:
         import torch
+
         torch.manual_seed(seed)
         if torch.cuda.is_available():
             torch.cuda.manual_seed_all(seed)
@@ -244,6 +246,7 @@ def progress_bar(iterable, desc: str = "", total: int | None = None):
     """
     try:
         from tqdm import tqdm
+
         return tqdm(iterable, desc=desc, total=total)
     except ImportError:
         return iterable

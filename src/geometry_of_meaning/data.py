@@ -62,8 +62,7 @@ class Translation:
             raise ValueError("text_id must not be empty")
         if self.language not in VALID_LANGUAGES:
             raise ValueError(
-                f"Invalid language '{self.language}'. "
-                f"Must be one of: {sorted(VALID_LANGUAGES)}"
+                f"Invalid language '{self.language}'. Must be one of: {sorted(VALID_LANGUAGES)}"
             )
         if self.source_language not in VALID_SOURCE_LANGUAGES:
             raise ValueError(
@@ -93,8 +92,7 @@ class VariantRecord:
             raise ValueError("text_id must not be empty")
         if self.language not in VALID_LANGUAGES:
             raise ValueError(
-                f"Invalid language '{self.language}'. "
-                f"Must be one of: {sorted(VALID_LANGUAGES)}"
+                f"Invalid language '{self.language}'. Must be one of: {sorted(VALID_LANGUAGES)}"
             )
         if not (0.0 <= self.compression_level <= 1.0):
             raise ValueError(
@@ -249,8 +247,11 @@ def load_variants(variants_dir: Path) -> dict[str, list[VariantRecord]]:
                         source_language=data.get("source_language", "unknown"),
                         compression_level=data["compression_level"],
                         text=data["text"],
-                        metadata={k: v for k, v in data.items()
-                                  if k not in VariantRecord.__dataclass_fields__},
+                        metadata={
+                            k: v
+                            for k, v in data.items()
+                            if k not in VariantRecord.__dataclass_fields__
+                        },
                     )
                     lang_variants.append(variant)
 
