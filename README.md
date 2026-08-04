@@ -128,4 +128,4 @@ runs/                    ← immutable numerical results
 
 ## License
 
-[License to be determined]
+MIT — see [LICENSE](LICENSE)

@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software in your research, please cite it as below."
+title: "Geometry of Meaning"
+authors:
+  - family-names: Gubinelli
+    given-names: Michelangelo
+    email: mgubinelli@example.com
+abstract: >-
+  A research project investigating the geometric structure of semantic space
+  through systematic perturbation, compression, and transformation of
+  multilingual texts.
+license: MIT
+type: software
+date-released: 2024
