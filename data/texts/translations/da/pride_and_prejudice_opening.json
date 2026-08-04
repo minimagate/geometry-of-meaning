@@ -1,0 +1,11 @@
+{
+  "text_id": "pride_and_prejudice_opening",
+  "language": "da",
+  "source_language": "en",
+  "text": "Det er en universelt anerkendt sandhed, at en enlig mand i besiddelse af en betydelig formue må mangle en hustru.\n\nHvor lidt man end kender til en sådan mands følelser eller synspunkter, når han først slår sig ned i et nabolag, er denne sandhed så fast forankret i de omkringboende familiers sind, at han betragtes som den retmæssige ejendom tilhørende en eller anden af deres døtre.\n\n\"Min kære hr. Bennet,\" sagde hans kone til ham en dag, \"har De hørt, at Netherfield Park endelig er blevet udlejet?\"\n\nHr. Bennet svarede, at det havde han ikke.\n\n\"Men det er det,\" fortsatte hun; \"for fru Long har lige været her, og hun fortalte mig alt om det.\"\n\nHr. Bennet gav intet svar.\n\n\"Vil De ikke vide, hvem der har lejet det?\" råbte hans kone utålmodigt.\n\n\"De ønsker at fortælle mig det, og jeg har ingen indvendinger imod at høre det.\"\n\nDette var invitation nok.",
+  "translation_method": "model_translation",
+  "translator": "Claude (Anthropic)",
+  "model_version": "claude-sonnet-4-20250514",
+  "validation_status": "unreviewed",
+  "review_notes": "Danish translation. Preserves Austen's ironic narrative voice and social satire. Key choices: 'enlig mand' for 'single man' (Danish term for an eligible bachelor), 'retmæssige ejendom' for 'rightful property' (preserving the satirical commodification), 'universelt anerkendt sandhed' for 'universally acknowledged truth' (capturing the ironic pretension). The translation uses a period-appropriate register without excessive archaism. Formal De-form preserved for the Bennet dialogue to maintain Regency-era formality. Requires human review."
+}

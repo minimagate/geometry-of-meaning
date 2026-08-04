@@ -1,0 +1,11 @@
+{
+  "text_id": "hamlet_to_be_or_not_to_be",
+  "language": "ja",
+  "source_language": "en",
+  "text": "生きるべきか、死ぬべきか、それが問題だ。\n運命の無法な投石や矢を\n心の中でじっと耐え忍ぶのが高貴なのか、\nそれとも苦難の海に立ち向かい、\n戦ってそれに終止符を打つのか。死ぬこと——眠ること、\nそれだけ。眠りによって心の痛みや\n肉体が受け継ぐ幾千もの自然の衝撃が\n終わると言えるのなら——それは\n心から望まれる完結だ。死ぬこと、眠ること。\n眠ること、おそらく夢を見ること——ああ、そこが障害だ。\n死の眠りの中で、この死すべき肉の絡まりを\n振りほどいた後に、どんな夢が訪れるのか、\nそれこそが私たちを立ち止まらせる。\nこの懸念があるからこそ、\n不幸はこれほど長く続くのだ。\n時代の鞭と嘲笑、\n抑圧者の不正、傲慢な者の侮辱、\n蔑まれた愛の苦しみ、法の遅延、\n役人の横柄さ、そして忍耐強い実力者が\n無価値な者から受ける拒絶——\nこれらに誰が耐えられようか、\nたった一本の短剣で\n自分自身の清算をつけられるというのに。\n重荷を背負い、疲れた人生の下で\n苦しみ汗を流す者があるだろうか、\n死後の何かへの恐怖がなければ——\n旅人が誰一人戻ったことのない、\n未発見の国への恐怖が意志を惑わせ、\n知っている不幸を耐え忍ばせ、\n知らない不幸へと飛び立たせないのではなければ。\nこうして良心は私たちをみな臆病者にし、\n決断の本来の色合いは\n思考の青白い影に病んで覆われ、\n大きな意義と重要性を持つ事業も、\nこの懸念によってその流れを歪められ、\n行動の名を失うのだ。",
+  "translation_method": "model_translation",
+  "translator": "Claude (Anthropic)",
+  "model_version": "claude-sonnet-4-20250514",
+  "validation_status": "unreviewed",
+  "review_notes": "Japanese translation of the Hamlet soliloquy. Prioritizes semantic precision while preserving the rhetorical structure and philosophical depth. Key choices: '生きるべきか、死ぬべきか' for 'To be, or not to be' (the established Japanese rendering capturing the moral-existential dimension), '良心' for 'conscience' (a considered choice: the passage's meaning aligns more with reflective self-awareness than purely moral conscience, but Japanese philosophical vocabulary makes '良心' the closest match for the self-inhibiting awareness Shakespeare describes). Line breaks preserved. Requires human review."
+}

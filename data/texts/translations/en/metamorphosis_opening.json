@@ -1,0 +1,11 @@
+{
+  "text_id": "metamorphosis_opening",
+  "language": "en",
+  "source_language": "de",
+  "text": "As Gregor Samsa awoke one morning from uneasy dreams, he found himself transformed in his bed into a monstrous vermin. He lay on his armour-hard back and saw, as he lifted his head a little, his domed, brown belly, divided into stiff arched segments, on top of which the blanket, ready to slide off completely, could barely cling. His many legs, pitifully thin compared with the rest of his size, flickered helplessly before his eyes.\n\n\"What has happened to me?\" he thought. It was no dream. His room, a proper, only somewhat too small human room, lay peacefully between the four well-known walls. Above the table, on which an unpacked sample collection of textile goods was spread out — Samsa was a travelling salesman — hung the picture that he had recently cut out of an illustrated magazine and placed in a pretty, gilded frame.",
+  "translation_method": "model_translation",
+  "translator": "Claude (Anthropic)",
+  "model_version": "claude-sonnet-4-20250514",
+  "validation_status": "unreviewed",
+  "review_notes": "English translation of the opening paragraphs of Die Verwandlung. This translation follows the widely cited standard English translation tradition (Muir & Muir, 1933 and later editions) while making minor adjustments for semantic precision in a research context. Key terminological choices: 'ungeheueren Ungeziefer' → 'monstrous vermin' (preserving the qualitative dimension of 'ungeheuer' alongside the identity of 'Ungeziefer'), 'panzerartig' → 'armour-hard', 'Versteifungen' → 'stiff arched segments'. Requires human review."
+}

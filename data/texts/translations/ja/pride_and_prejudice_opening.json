@@ -1,0 +1,11 @@
+{
+  "text_id": "pride_and_prejudice_opening",
+  "language": "ja",
+  "source_language": "en",
+  "text": "相当な財産を持っている独身の男性は、必ず妻を欲しがるものであるというのは、普遍的に認められた真理である。\n\nそういう男性が初めて近所に引っ越してきたとき、彼の感情や考えについてはほとんど知られていなくても、周囲の家族の心の中にはこの真理があまりにも深く根付いているため、彼はどこかの家の娘のだれかの当然の所有物と見なされるのである。\n\n「ねえ、ベネットさん」ある日、奥さんが夫に言った。「ネザーフィールド・パークがついに貸し出されたって聞いて？」\n\nベネット氏は聞いていないと答えた。\n\n「でも本当なのよ」と彼女は続けた。「ロング夫人がさっき来て、詳しく話してくれたの。」\n\nベネット氏は何も答えなかった。\n\n「誰が借りたのか知りたくないの？」奥さんは苛立って叫んだ。\n\n「君は話したがっているし、私はそれを聞くことに異存はないよ。」\n\nこれだけで十分な誘いだった。",
+  "translation_method": "model_translation",
+  "translator": "Claude (Anthropic)",
+  "model_version": "claude-sonnet-4-20250514",
+  "validation_status": "unreviewed",
+  "review_notes": "Japanese translation. Preserves Austen's ironic narrative voice, the universal-claim opening, and the characterization through dialogue. Uses standard modern Japanese with a literary register appropriate to the period. Key choices: '普遍的に認められた真理' (universally acknowledged truth) preserving the ironic pretension, '当然の所有物' (rightful property) preserving the satirical economic framing. Character speech maintains the gendered speech patterns appropriate to the Regency-era husband-wife dynamic, rendered in Japanese conventions. Requires human review."
+}

@@ -1,0 +1,15 @@
+{
+  "text_id": "einstein_special_relativity",
+  "title": "On the Electrodynamics of Moving Bodies — Opening",
+  "author": "Albert Einstein",
+  "category": "scientific",
+  "original_language": "de",
+  "text": "Daß die Elektrodynamik Maxwells — wie dieselbe gegenwärtig aufgefaßt zu werden pflegt — in ihrer Anwendung auf bewegte Körper zu Asymmetrien führt, welche den Phänomenen nicht anzuhaften scheinen, ist bekannt. Man denke z.B. an die elektrodynamische Wechselwirkung zwischen einem Magneten und einem Leiter. Das beobachtbare Phänomen hängt hier nur ab von der Relativbewegung von Leiter und Magnet, während nach der üblichen Auffassung die beiden Fälle, daß der eine oder der andere dieser Körper der bewegte sei, streng voneinander zu trennen sind. Bewegt sich nämlich der Magnet und ruht der Leiter, so entsteht in der Umgebung des Magneten ein elektrisches Feld von gewissem Energiewerte, welches an den Orten, wo sich Teile des Leiters befinden, einen Strom erzeugt. Ruht aber der Magnet und bewegt sich der Leiter, so entsteht in der Umgebung des Magneten kein elektrisches Feld, dagegen im Leiter eine elektromotorische Kraft, welcher an sich keine Energie entspricht, die aber — Gleichheit der Relativbewegung bei den beiden ins Auge gefaßten Fällen vorausgesetzt — zu elektrischen Strömen von derselben Größe und demselben Verlaufe Veranlassung gibt, wie im ersten Falle die elektrischen Kräfte.",
+  "source": "Zur Elektrodynamik bewegter Körper, Annalen der Physik, Band 17, S. 891–921, 1905",
+  "source_url": "https://einsteinpapers.press.princeton.edu/vol2-doc/312",
+  "publication_year": 1905,
+  "copyright": "public_domain",
+  "selection_notes": "Opening paragraph of the 1905 paper. Einstein introduces the motivating problem for special relativity: the asymmetry in Maxwell's electrodynamics when applied to moving bodies. Using the magnet-and-conductor thought experiment, he demonstrates that the observed phenomenon depends only on relative motion, while the prevailing theoretical description distinguishes between the two cases. This passage encapsulates the empirical motivation that leads to the postulation of the relativity principle and the constancy of the speed of light.",
+  "normalization_notes": "Original German orthography preserved, including 'daß' (not 'dass'), 'elektromotorische' (not 'elektromagnetische'). Fraktur characters normalized to modern script. The text follows the published Annalen der Physik version as reproduced in The Collected Papers of Albert Einstein (Princeton University Press).",
+  "word_count_original": 175
+}

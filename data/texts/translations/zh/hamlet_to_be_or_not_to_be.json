@@ -1,0 +1,11 @@
+{
+  "text_id": "hamlet_to_be_or_not_to_be",
+  "language": "zh",
+  "source_language": "en",
+  "text": "生存还是毁灭，这是一个值得考虑的问题：\n默然忍受命运的暴虐的毒箭，\n或是挺身反抗人世的无涯的苦难，\n通过斗争把它们扫清，这两种行为，哪一种更高贵？\n死了；睡着了；什么都完了；\n要是在这一种睡眠之中，我们心头的创痛，\n以及其他无数血肉之躯所不能避免的打击，\n都可以从此消失，那正是我们求之不得的结局。\n死了；睡着了；睡着了也许还会做梦；\n嗯，阻碍就在这儿：\n因为当我们摆脱了这一具朽腐的皮囊以后，\n在那死的睡眠里，究竟将要做些什么梦，\n那不能不使我们踌躇顾虑。\n人们甘心久困于患难之中，也就是为了这个缘故。\n谁愿意忍受人世的鞭挞和讥嘲，\n压迫者的凌辱、傲慢者的冷眼，\n被轻蔑的爱情的惨痛、法律的迁延，\n官吏的横暴和费尽辛勤所换来的小人的鄙视，\n要是他只要用一柄小小的刀子，\n就可以清算他自己的一生？\n谁愿意负着这样的重担，\n在烦劳的生命的压迫下呻吟流汗，\n倘不是因为惧怕不可知的死后，\n惧怕那从来不曾有一个旅人回来过的神秘之国，\n是它迷惑了我们的意志，\n使我们宁愿忍受目前的磨折，\n不敢向我们所不知道的痛苦飞去？\n这样，重重的顾虑使我们全变成了懦夫，\n决心的炽热的光彩，\n被审慎的思维盖上了一层灰色，\n伟大的事业在这一种考虑之下，\n也会逆流而退，\n失去了行动的意义。",
+  "translation_method": "model_translation",
+  "translator": "Claude (Anthropic)",
+  "model_version": "claude-sonnet-4-20250514",
+  "validation_status": "unreviewed",
+  "review_notes": "Chinese translation of the Hamlet soliloquy. Follows the tradition of Zhu Shenghao's (朱生豪) classic translation while prioritizing semantic precision. Key choices: '生存还是毁灭' for 'To be, or not to be' (the established Chinese rendering capturing the existential dichotomy), '顾虑' for 'conscience' (a deliberate choice to convey the sense of reflective hesitation rather than moral conscience, aligning with the philosophical meaning of the passage). The translation preserves the rhetorical structure: existential question, catalog of life's sufferings, the fear of the unknown, and the conclusion about thought inhibiting action. Requires human review."
+}

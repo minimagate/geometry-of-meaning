@@ -1,0 +1,11 @@
+{
+  "text_id": "metamorphosis_opening",
+  "language": "zh",
+  "source_language": "de",
+  "text": "一天早晨，格里高尔·萨姆沙从不安的睡梦中醒来，发现自己躺在床上变成了一只巨大的甲虫。他仰卧着，那坚硬得像铁甲一般的背贴着床，他稍稍抬了抬头，便看见自己那穹顶似的、褐色的肚子，分成了许多块弧形的硬片，被子几乎盖不住肚子尖，都快滑下来了。他那许多条与身体的其他部位相比细得可怜的腿，在他眼前无可奈何地舞动着。\n\n「我出了什么事啦？」他想。这不是梦。他的房间，一间略嫌小了些的、地地道道的人住的房间，静卧在四堵熟悉的墙壁之间。在摊放着打开的衣料样品——萨姆沙是个旅行推销员——的桌子上方，挂着他不久前从一本画报上剪下来、装在一个漂亮的镀金镜框里的画。",
+  "translation_method": "model_translation",
+  "translator": "Claude (Anthropic)",
+  "model_version": "claude-sonnet-4-20250514",
+  "validation_status": "unreviewed",
+  "review_notes": "Chinese translation from the original German. Strives to preserve Kafka's narrative voice and the unsettling contrast between transformation and mundane detail. Key choices: '巨大的甲虫' for 'ungeheueren Ungeziefer' (captures the size and insect nature, following Chinese literary convention for Kafka translations), '坚硬得像铁甲一般' for 'panzerartig', '弧形的硬片' for 'bogenförmigen Versteifungen'. The translation follows the tradition of classic Chinese translators (e.g., Li Wenjun 李文俊) while making adjustments for semantic precision in a research context. Requires human review."
+}

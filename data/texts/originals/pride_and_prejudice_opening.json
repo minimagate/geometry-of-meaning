@@ -1,0 +1,15 @@
+{
+  "text_id": "pride_and_prejudice_opening",
+  "title": "Pride and Prejudice — Opening",
+  "author": "Jane Austen",
+  "category": "novel",
+  "original_language": "en",
+  "text": "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.\n\nHowever little known the feelings or views of such a man may be on his first entering a neighbourhood, this truth is so well fixed in the minds of the surrounding families, that he is considered as the rightful property of some one or other of their daughters.\n\n\"My dear Mr. Bennet,\" said his lady to him one day, \"have you heard that Netherfield Park is let at last?\"\n\nMr. Bennet replied that he had not.\n\n\"But it is,\" returned she; \"for Mrs. Long has just been here, and she told me all about it.\"\n\nMr. Bennet made no answer.\n\n\"Do not you want to know who has taken it?\" cried his wife impatiently.\n\n\"You want to tell me, and I have no objection to hearing it.\"\n\nThis was invitation enough.",
+  "source": "Pride and Prejudice, first edition, T. Egerton, London, 1813",
+  "source_url": "https://www.gutenberg.org/ebooks/1342",
+  "publication_year": 1813,
+  "copyright": "public_domain",
+  "selection_notes": "Chapter 1 opening: from the famous first sentence through the first exchange between Mr. and Mrs. Bennet introducing the arrival of Mr. Bingley at Netherfield Park. The extract ends before Mrs. Bennet reveals the tenant's name, providing a self-contained narrative unit that establishes tone, irony, and the central thematic concern (marriage and social status).",
+  "normalization_notes": "Quotation marks standardized to double quotes. Original 1813 spelling ('neighbourhood', 'shewed' → 'showed') preserved from the first edition. Paragraph breaks follow the first edition structure.",
+  "word_count_original": 153
+}

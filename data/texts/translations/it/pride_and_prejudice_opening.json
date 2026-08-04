@@ -1,0 +1,11 @@
+{
+  "text_id": "pride_and_prejudice_opening",
+  "language": "it",
+  "source_language": "en",
+  "text": "È una verità universalmente riconosciuta che uno scapolo in possesso di una solida fortuna debba aver bisogno di una moglie.\n\nPer quanto poco si conoscano i sentimenti o le opinioni di un tale uomo al suo primo apparire in un vicinato, questa verità è così radicata nelle menti delle famiglie dei dintorni che egli viene considerato come la legittima proprietà dell'una o dell'altra delle loro figlie.\n\n«Mio caro signor Bennet», gli disse un giorno la sua signora, «avete saputo che Netherfield Park è stato finalmente affittato?»\n\nIl signor Bennet rispose di no.\n\n«Eppure è così», replicò lei; «perché la signora Long è stata qui poco fa e mi ha raccontato tutto.»\n\nIl signor Bennet non rispose.\n\n«Non volete sapere chi l'ha preso?» esclamò sua moglie con impazienza.\n\n«Voi volete dirmelo, e io non ho nulla in contrario a sentirvelo dire.»\n\nQuesto fu un invito più che sufficiente.",
+  "translation_method": "model_translation",
+  "translator": "Claude (Anthropic)",
+  "model_version": "claude-sonnet-4-20250514",
+  "validation_status": "unreviewed",
+  "review_notes": "Italian translation. Strives to preserve Austen's ironic narrative voice, the social satire embedded in the opening universal claim, and the characterization of the Bennets' marital dynamic through dialogue. The translation maintains the period-appropriate register without archaizing excessively. 'Scapolo' for 'single man' carries the correct connotation of an eligible bachelor appropriate to the Regency context. Requires human review."
+}

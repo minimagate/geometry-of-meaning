@@ -1,0 +1,11 @@
+{
+  "text_id": "metamorphosis_opening",
+  "language": "da",
+  "source_language": "de",
+  "text": "Da Gregor Samsa en morgen vågnede af urolige drømme, fandt han sig i sin seng forvandlet til et uhyrligt kryb. Han lå på sin panserhårde ryg og så, når han løftede hovedet en smule, sin hvælvede, brune bug, opdelt af bueformede forstivninger, på hvis top sengetæppet, parat til at glide helt ned, knap kunne holde sig. Hans mange, i forhold til hans sædvanlige omfang ynkeligt tynde ben, sitrede hjælpeløst for øjnene af ham.\n\n»Hvad er der sket med mig?« tænkte han. Det var ingen drøm. Hans værelse, et rigtigt, bare lidt for lille menneskeværelse, lå stille mellem de fire velkendte vægge. Over bordet, hvorpå en udpakket vareprøvesamling af tekstiler var bredt ud — Samsa var handelsrejsende — hang billedet, som han for nylig havde klippet ud af et illustreret blad og sat i en smuk, forgyldt ramme.",
+  "translation_method": "model_translation",
+  "translator": "Claude (Anthropic)",
+  "model_version": "claude-sonnet-4-20250514",
+  "validation_status": "unreviewed",
+  "review_notes": "Danish translation from the original German. Strives to preserve Kafka's narrative voice: the matter-of-fact tone describing the extraordinary, the detailed physical description, and the mundane professional context. Key choices: 'uhyrligt kryb' for 'ungeheueren Ungeziefer' (preserving monstrous/unclean dimension), 'panserhårde' for 'panzerartig', 'bueformede forstivninger' for 'bogenförmigen Versteifungen' (anatomical/structural precision), 'handelsrejsende' for 'Reisender' (the correct Danish profession term). Requires human review."
+}

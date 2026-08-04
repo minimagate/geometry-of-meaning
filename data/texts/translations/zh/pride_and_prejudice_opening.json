@@ -1,0 +1,11 @@
+{
+  "text_id": "pride_and_prejudice_opening",
+  "language": "zh",
+  "source_language": "en",
+  "text": "凡是有钱的单身汉，总想娶位太太，这已经成了一条举世公认的真理。\n\n这样的单身汉，每逢新搬到一个地方，四邻八舍虽然完全不了解他的性情如何，见解如何，可是，既然这样的一条真理早已在人们心目中根深蒂固，因此人们总是把他看作自己某一个女儿理所应得的一笔财产。\n\n有一天，班纳特太太对她的丈夫说：「我的好老爷，尼日斐花园终于租出去了，你听说过没有？」\n\n班纳特先生回答说他没有听说过。\n\n「的确租出去了，」她说，「朗格太太刚刚上这儿来过，她把这件事的底细，一五一十地都告诉我了。」\n\n班纳特先生没有理睬她。\n\n「你难道不想知道是谁租去的吗？」太太不耐烦地嚷起来了。\n\n「既是你要说给我听，我听听也无妨。」\n\n这句话足够鼓励她讲下去了。",
+  "translation_method": "model_translation",
+  "translator": "Claude (Anthropic)",
+  "model_version": "claude-sonnet-4-20250514",
+  "validation_status": "unreviewed",
+  "review_notes": "Chinese translation. Strives to preserve Austen's ironic narrative voice, the universal claim at the opening, and the characterization through dialogue. The translation uses standard Mandarin. Key choices: '单身汉' (single man/bachelor) preserves the social category, '举世公认的真理' (universally acknowledged truth) captures the ironic pretension of the opening, '一笔财产' (a piece of property) preserves the satirical reduction of the man to an acquisition target. The translation follows the style of Chinese literary translation conventions (e.g., Wang Keyi's 王科一 classic translation) while prioritizing semantic precision. Requires human review."
+}
