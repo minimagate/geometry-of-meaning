@@ -1,0 +1,11 @@
+{
+  "text_id": "invictus",
+  "language": "ja",
+  "source_language": "en",
+  "text": "私を覆う夜の中から——\n      極から極へと漆黒の奈落——\nいかなる神々であれ、私は感謝する\n      我が征服されえぬ魂を。\n\n境遇の容赦なき掌握にあって\n      私はひるまず、大声で叫びもしなかった。\n偶然という殴打のもとに\n      我が頭は血まみれであれど、決してうつむかぬ。\n\nこの怒りと涙の場の彼方には\n      ただ影の恐怖が立ちはだかるのみ、\nされど歳月の脅威は\n      我が恐れを知らぬことを見出し、これからも見出すであろう。\n\n門がいかに狭かろうと、問題ではない——\n      巻物がいかに罰に満ちていようと——\n私は我が運命の主であり、\n      私は我が魂の船長である。",
+  "translation_method": "model_translation",
+  "translator": "Claude (Anthropic)",
+  "model_version": "claude-sonnet-4-20250514",
+  "validation_status": "unreviewed",
+  "review_notes": "Japanese translation of Henley's 'Invictus'. Preserves the four-quatrain structure, the poem's progression from darkness through suffering to defiance and mastery, and the visual indentation pattern. Rendered in a formal poetic register using である調 to convey the declarative, stoic tone. Key choices: '私を覆う夜' (night that covers me, active enclosing), '漆黒の奈落' (jet-black abyss, for 'Black as the pit'), '征服されえぬ魂' (soul that cannot be conquered), '容赦なき掌握' (merciless grip, for 'fell clutch'), '偶然という殴打' (bludgeonings of chance — lit.: 'beatings called chance'), '決してうつむかぬ' (never looking down, for 'unbowed'). The final couplet: '主' for 'master' and '船長' (ship's captain) for 'captain', preserving the nautical agency metaphor. The negation structure 'It matters not' is rendered as '問題ではない'. The future-emphatic 'shall find' is rendered as 'これからも見出すであろう' (will continue to find into the future). Requires review by a native Japanese speaker for poetic register and the rendition of metered verse."
+}

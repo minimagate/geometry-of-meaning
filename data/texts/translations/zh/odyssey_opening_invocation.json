@@ -1,0 +1,11 @@
+{
+  "text_id": "odyssey_opening_invocation",
+  "language": "zh",
+  "source_language": "grc",
+  "text": "缪斯啊，请为我叙说那位多谋善变的英雄，他曾在摧毁特洛亚的神圣城邦后漂泊远方。他见过许多种族的城邦，洞悉了他们的心智；他在大海上遭受了无数的内心痛苦，为了保全自己的性命，也为了同伴们的归程。然而，即便如此，他也没能救下他的同伴们，尽管他竭力而为：他们因自己的狂妄愚蠢而丧命——这些蠢人啊，他们吞食了太阳神许珀里翁的牛群；而太阳神剥夺了他们归乡的日子。女神啊，宙斯的女儿，就请从某一点开始，也对我们讲说这一切吧。\n\n那时，所有其他的人，只要从险峻的毁灭中逃脱，都已回到家中，躲过了战争和大海。唯独那一个人，他渴望着归程和妻子，却被尊贵的宁芙女神卡吕普索，那在女神中光芒闪耀的一位，困在她那幽深的洞府中，一心要他为夫。然而，当年岁流转到了众神为他纺定归家之时——回到伊塔卡，即便在那里，他仍未摆脱磨难，尽管身在他的亲人之中。众神全都怜悯他，唯独波塞冬除外；他怒气难消，紧追神样的奥德修斯不放，直到他踏上自己的土地。\n\n但波塞冬那时去了远方埃塞俄比亚人的领地——埃塞俄比亚人，他们分为两支，居住在人类最远的边界，一支在许珀里翁落下之处，一支在他升起之处——去接受百头公牛与公羊的盛祭。他在那里坐在盛宴之中，欣然自得。然而其他众神全都聚集在奥林匹斯宙斯的殿堂里。人神之父在他们之中开始发言；因为他在心中想起了无可指责的埃癸斯托斯，那位声名远播的阿伽门农之子俄瑞斯忒斯杀了他。想起此人，他便对众神说道：",
+  "translation_method": "model_translation",
+  "translator": "Claude (Anthropic)",
+  "model_version": "claude-sonnet-4-20250514",
+  "validation_status": "unreviewed",
+  "review_notes": "Chinese translation of Homer, Odyssey, Book 1, lines 1–32, translated directly from the Ancient Greek source (Oxford Classical Text, Allen, 1917). The translation uses standard modern Chinese (白话文) with classical-literate register appropriate for epic narrative. Key choices: '多谋善变的英雄' for πολύτροπον (capturing the compound sense of resourcefulness and turning/change), '狂妄愚蠢' for ἀτασθαλίῃσιν (the Homeric concept of destructive recklessness), '尊贵的宁芙女神' for νύμφη πότνια (rendering both the nymph/nature-spirit category and the honorific title), '怒气难消' for ἀσπερχὲς μενέαινεν (relentless, unceasing anger). The epithets are rendered as descriptive modifiers: '神样的奥德修斯' (godlike Odysseus), '光芒闪耀的' (shining/divine, for Calypso), '无可指责的埃癸斯托斯' (blameless Aegisthus). The hecatomb is rendered as '百头公牛与公羊的盛祭'. Requires review by a Classical Chinese translator for Homeric terminology."
+}

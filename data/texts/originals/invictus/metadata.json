@@ -1,0 +1,18 @@
+{
+  "text_id": "invictus",
+  "title": "Invictus",
+  "author": "William Ernest Henley",
+  "work": "Invictus",
+  "category": "poetry",
+  "original_language": "en",
+  "passage_range": "Complete poem (16 lines, 4 quatrains)",
+  "source": "A Book of Verses, by William Ernest Henley, published by David Nutt, London, 1888. 'Invictus' appears as the fourth poem in the 'Life and Death (Echoes)' section.",
+  "source_url": "https://archive.org/details/bookofverses00henl",
+  "publication_year": 1888,
+  "copyright": "public_domain",
+  "selection_notes": "The complete poem 'Invictus' — all four quatrains with no omissions. Although shorter than most corpus passages (16 lines, approximately 108 words), the poem is kept intact because it forms a single coherent semantic unit. Its brevity is counterbalanced by exceptional semantic density: each quatrain advances a distinct phase of the speaker's moral argument (circumstance — suffering — death — mastery), and the poem's grammatical structure (negation, modal assertions, parallelism) makes it an ideal test case for semantic preservation across languages. The poem is one of the most frequently cited works of Victorian stoicism and offers rich material for analyzing how negation, agency, and claims about fate and self-mastery are rendered in typologically diverse languages.",
+  "normalization_notes": "Text follows the 1888 first edition as printed in A Book of Verses. Original punctuation, capitalization, line breaks, and stanza breaks are preserved exactly. The four-space indentation of lines 2, 4, 6, 8, 10, 12, 14, and 16 (the even-numbered lines in each quatrain) follows the original typographic layout. Spelling is unchanged from the 1888 edition ('strait' not 'straight', 'bludgeonings', 'pit'). No modernization has been applied.",
+  "word_count_original": 108,
+  "note_on_length": "This passage (108 words) is shorter than the corpus target of 150–300 words. It is included as a special case because (a) the poem is a complete, indivisible semantic unit; (b) its exceptional syntactic and semantic density compensates for its brevity; (c) extending it with commentary or surrounding material would violate its integrity as a lyric poem.",
+  "_text_file": "source.txt"
+}

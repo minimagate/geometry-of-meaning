@@ -19,6 +19,7 @@ logger = logging.getLogger(__name__)
 # Valid ISO 639-1 language codes used in this project
 VALID_LANGUAGES = {"en", "it", "zh", "ja", "da"}
 VALID_ORIGINAL_LANGUAGES = {"en", "it", "zh", "ja", "da", "de", "fr", "grc"}
+VALID_SOURCE_LANGUAGES = {"en", "it", "zh", "ja", "da", "de", "fr", "grc"}
 
 
 @dataclass
@@ -64,10 +65,10 @@ class Translation:
                 f"Invalid language '{self.language}'. "
                 f"Must be one of: {sorted(VALID_LANGUAGES)}"
             )
-        if self.source_language not in VALID_LANGUAGES:
+        if self.source_language not in VALID_SOURCE_LANGUAGES:
             raise ValueError(
                 f"Invalid source_language '{self.source_language}'. "
-                f"Must be one of: {sorted(VALID_LANGUAGES)}"
+                f"Must be one of: {sorted(VALID_SOURCE_LANGUAGES)}"
             )
         if not self.text:
             raise ValueError("text must not be empty")

@@ -1,0 +1,19 @@
+{
+  "text_id": "odyssey_opening_invocation",
+  "title": "The Odyssey — Opening Invocation",
+  "author": "Homer",
+  "work": "The Odyssey (Ὀδύσσεια)",
+  "category": "poetry",
+  "original_language": "grc",
+  "passage_range": "Book 1, lines 1–32",
+  "source": "Homeri Opera, Tomus III: Odysseae libri I–XII, edited by Thomas W. Allen, Oxford Classical Texts, Oxford University Press, 1917 (2nd edition)",
+  "source_url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0135",
+  "publication_year": -750,
+  "publication_year_note": "Estimated date of composition: late 8th century BCE. The textual edition used (Allen, 1917) is a modern critical edition of a public-domain ancient text.",
+  "copyright": "public_domain",
+  "selection_notes": "Book 1, lines 1–32: the complete opening invocation and narrative setup. Lines 1–10 address the Muse with the famous invocation to tell of the πολύτροπος (many-turned / much-travelled) man. Lines 11–21 summarize Odysseus's predicament on Calypso's island and the loss of his companions through their own recklessness. Lines 22–32 describe the gods' pity (all except Poseidon) and shift to Zeus on Olympus, who begins speaking about Aegisthus. The passage ends at line 32 with Zeus beginning his speech (μετηύδα), a natural boundary before the content of his address. This is one of the foundational passages of Western literature, establishing the epic's central themes: wandering, suffering, divine agency, human responsibility, nostos (homecoming), and the relationship between mortals and immortals.",
+  "normalization_notes": "Standard polytonic Greek orthography as established in the Oxford Classical Text (Allen, 1917). Breath marks (spiritus asper and lenis), acute/grave/circumflex accents, iota subscripts, and editorial punctuation follow Allen's edition. The text does not preserve the capital letters that begin each verse line in some printed editions (the standard convention for digital texts). No normalization of dialectal forms has been performed. The text uses the Ionic-dialect forms characteristic of the Homeric Kunstsprache (e.g., ἔννεπε for ἔννεπε, μενέαινεν for ἐμήνιεν).",
+  "word_count_original": 179,
+  "verification_note": "The Greek text has been reproduced from the Oxford Classical Text (Allen, 1917) accessible via the Perseus Digital Library. Verification against the printed edition is recommended before experimental use. Minor discrepancies in accentuation or punctuation relative to specific printed impressions are possible.",
+  "_text_file": "source.txt"
+}

@@ -1,0 +1,11 @@
+{
+  "text_id": "invictus",
+  "language": "da",
+  "source_language": "en",
+  "text": "Ud af den nat, der dækker mig,\n      Sort som afgrunden fra pol til pol,\nJeg takker hvilke guder der end må være\n      For min ubesejrelige sjæl.\n\nI omstændighedernes grumme greb\n      Har jeg ikke veget eller skreget højt.\nUnder tilfældets kølleslag\n      Er mit hoved blodigt, men ubøjet.\n\nHinsides dette sted af vrede og tårer\n      Tårner kun rædslen fra skyggen sig op,\nOg dog finder årenes trussel\n      Mig frygtløs og skal finde mig frygtløs.\n\nDet betyder intet, hvor snæver porten er,\n      Hvor fuld af straffe bogrullen er,\nJeg er min skæbnes herre,\n      Jeg er min sjæls kaptajn.",
+  "translation_method": "model_translation",
+  "translator": "Claude (Anthropic)",
+  "model_version": "claude-sonnet-4-20250514",
+  "validation_status": "unreviewed",
+  "review_notes": "Danish translation of Henley's 'Invictus'. Preserves the four-quatrain structure, the rhyme scheme (ABAB, approximately maintained where idiomatic), and the emotional arc. Key choices: 'nat, der dækker mig' (night that covers me, with the active present participle), 'afgrunden fra pol til pol' (the abyss from pole to pole), 'ubesejrelige sjæl' (unconquerable/invincible soul), 'grumme greb' (fell/cruel grip, for 'fell clutch'), 'kølleslag' (club-blows, for 'bludgeonings'), 'ubøjet' (unbowed — a close cognate match). The final couplet: 'herre' (master/lord) for 'master', 'kaptajn' for 'captain'. The negation 'It matters not' is rendered as 'Det betyder intet' (It means nothing). The future auxiliary 'skal' preserves the emphatic force of 'shall find'. The word 'scroll' is rendered as 'bogrullen' (the book-scroll), maintaining the judicial-imagery. Requires review by a native Danish speaker for poetic register, meter, and the naturalness of the rhyme approximations."
+}

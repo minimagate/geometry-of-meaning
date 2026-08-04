@@ -1,0 +1,11 @@
+{
+  "text_id": "invictus",
+  "language": "zh",
+  "source_language": "en",
+  "text": "从笼罩我的黑夜中，\n      黑如两极之间的深渊，\n我感谢无论何等神明的存在\n      赐予我不可征服的灵魂。\n\n在境遇的凶残攫握中\n      我未曾退缩亦未高声哭喊。\n在命运的接连重击之下\n      我头颅浴血，却不曾低头。\n\n在这愤怒与泪水之地以外\n      唯有阴影的恐怖隐现，\n然而岁月的威逼\n      已见到、将见到我无所畏惧。\n\n无论那门多么狭窄，\n      无论那卷宗上写满何等刑罚，\n我是我命运的主宰，\n      我是我灵魂的船长。",
+  "translation_method": "model_translation",
+  "translator": "Claude (Anthropic)",
+  "model_version": "claude-sonnet-4-20250514",
+  "validation_status": "unreviewed",
+  "review_notes": "Chinese translation of Henley's 'Invictus'. Preserves the four-quatrain structure, the poem's emotional arc, and the visual indentation pattern. Key choices: '笼罩我的黑夜' (night that envelops me, capturing the active quality of 'covers'), '深渊' (abyss/pit), '不可征服的灵魂' (unconquerable soul), '凶残攫握' (fell clutch — fierce, cruel grip), '接连重击' (bludgeonings — repeated heavy blows), '不曾低头' (unbowed, literally 'have not lowered my head'), '阴影的恐怖' (Horror of the shade). The final couplet renders 'master' as '主宰' (sovereign/ruler) and 'captain' as '船长' (ship's captain), preserving the nautical image of command. The negation pattern ('It matters not' → '无论') is rendered as a concessive structure. The future-perfect 'shall find' is rendered as '将见到'. Requires review by a native Chinese speaker for poetic register and prosody in the quatrain form."
+}
