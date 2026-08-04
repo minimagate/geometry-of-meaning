@@ -1,4 +1,4 @@
-.PHONY: help install lint format typecheck test clean run-compress run-analyze
+.PHONY: help install lint format typecheck test clean run-generate run-analyze
 
 .DEFAULT_GOAL := help
 
@@ -26,8 +26,8 @@ clean: ## Remove build artifacts, caches, and egg-info
 	find . -type d -name "*.egg-info" -exec rm -rf {} + 2>/dev/null || true
 	rm -rf build/ dist/ .mypy_cache/ .ruff_cache/ .pytest_cache/ htmlcov/ .coverage
 
-run-compress: ## Run progressive compression — generate.py
-	python experiments/semantic_preservation/progressive_compression/generate.py
+run-generate: ## Run translation_embedding_baseline — generate.py
+	python experiments/semantic_preservation/translation_embedding_baseline/generate.py
 
-run-analyze: ## Run progressive compression — analyze.py
-	python experiments/semantic_preservation/progressive_compression/analyze.py
+run-analyze: ## Run translation_embedding_baseline — analyze.py
+	python experiments/semantic_preservation/translation_embedding_baseline/analyze.py

@@ -37,7 +37,13 @@ from geometry_of_meaning.metrics import (
     cosine_similarity,
     euclidean_distance,
 )
-from geometry_of_meaning.utils import load_config, setup_logging
+from geometry_of_meaning.utils import (
+    load_config,
+    resolve_paths,
+    set_seed,
+    setup_logging,
+    timestamp_now,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -59,12 +65,20 @@ def run_analysis(
         Path to the created run directory.
     """
     config = load_config(experiment_dir / "config.yaml")
+    set_seed(config.get("random_seed", 42))
     dataset = load_experiment_dataset(experiment_dir / "dataset.jsonl")
 
     # Create timestamped run directory
-    run_id = datetime.now(UTC).strftime("%Y-%m-%dT%H%M%S")
+    run_id = timestamp_now()
     run_dir = runs_dir / run_id
     run_dir.mkdir(parents=True, exist_ok=False)
+
+    # Add file log handler so output is persisted to logs.txt
+    file_handler = logging.FileHandler(run_dir / "logs.txt", encoding="utf-8")
+    file_handler.setFormatter(
+        logging.Formatter("%(asctime)s [%(levelname)s] %(name)s: %(message)s")
+    )
+    logging.getLogger().addHandler(file_handler)
 
     logger.info(f"Starting run: {run_id}")
 
@@ -415,14 +429,13 @@ def main() -> None:
 
     setup_logging(verbose=args.verbose)
 
-    from geometry_of_meaning.utils import resolve_paths
-
     repo_root = resolve_paths(args.experiment_dir)
     texts_dir = args.texts_dir or repo_root / "data" / "texts"
-    runs_dir = (
-        args.runs_dir
-        or repo_root / "runs" / "semantic_preservation" / "translation_embedding_baseline"
-    )
+
+    # Derive mirrored output path from experiment directory relative to repo root
+    experiment_relative = args.experiment_dir.resolve().relative_to(repo_root)
+    mirror_path = Path(*experiment_relative.parts[1:])  # strip 'experiments/'
+    runs_dir = args.runs_dir or repo_root / "runs" / mirror_path
 
     run_analysis(
         experiment_dir=args.experiment_dir,

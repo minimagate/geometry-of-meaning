@@ -17,11 +17,11 @@ import logging
 from pathlib import Path
 
 from geometry_of_meaning.data import (
+    VariantRecord,
     load_experiment_dataset,
     load_original_text,
     load_translation,
     save_variants,
-    VariantRecord,
 )
 from geometry_of_meaning.utils import (
     load_config,
@@ -93,7 +93,8 @@ def generate_variants(
 
     # Write variants to disk, organized by language
     save_variants(variants_dir, all_variants)
-    logger.info(f"Generated {sum(len(v) for v in all_variants.values())} variants in {variants_dir}")
+    total = sum(len(v) for v in all_variants.values())
+    logger.info(f"Generated {total} variants in {variants_dir}")
 
 
 def main() -> None:
@@ -129,10 +130,11 @@ def main() -> None:
 
     repo_root = resolve_paths(args.experiment_dir)
     texts_dir = args.texts_dir or repo_root / "data" / "texts"
-    variants_dir = (
-        args.variants_dir
-        or repo_root / "data" / "variants" / "semantic_preservation" / "translation_embedding_baseline"
-    )
+
+    # Derive mirrored output path from experiment directory relative to repo root
+    experiment_relative = args.experiment_dir.resolve().relative_to(repo_root)
+    mirror_path = Path(*experiment_relative.parts[1:])  # strip 'experiments/'
+    variants_dir = args.variants_dir or repo_root / "data" / "variants" / mirror_path
 
     variants_dir.mkdir(parents=True, exist_ok=True)
 

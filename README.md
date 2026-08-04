@@ -2,7 +2,7 @@
 
 A research project investigating the geometric structure of semantic space through systematic perturbation, compression, and transformation of multilingual texts.
 
-> **Current state**: Early-stage. The repository architecture and first experiment (Progressive Semantic Compression) are scaffolded. No experimental runs have been executed yet.
+> **Current state**: Early-stage. The repository architecture and first experiment (Translation Embedding Baseline) are scaffolded. One experimental run has been executed.
 
 ## Research Idea
 
@@ -48,12 +48,12 @@ data/variants/<area>/<experiment>/   ← generated textual variants
 runs/<area>/<experiment>/            ← numerical results (immutable)
 ```
 
-For example, the Progressive Semantic Compression experiment lives at:
+For example, the Translation Embedding Baseline experiment lives at:
 
 ```
-experiments/semantic_preservation/progressive_compression/
-data/variants/semantic_preservation/progressive_compression/
-runs/semantic_preservation/progressive_compression/
+experiments/semantic_preservation/translation_embedding_baseline/
+data/variants/semantic_preservation/translation_embedding_baseline/
+runs/semantic_preservation/translation_embedding_baseline/
 ```
 
 The stable textual corpus lives separately under `data/texts/`.
@@ -80,11 +80,11 @@ Requirements: Python 3.11+.
 ### Running an existing experiment
 
 ```bash
-# Generate variants for the progressive compression experiment
-python experiments/semantic_preservation/progressive_compression/generate.py
+# Generate variants for the translation embedding baseline experiment
+python experiments/semantic_preservation/translation_embedding_baseline/generate.py
 
 # Run the numerical analysis
-python experiments/semantic_preservation/progressive_compression/analyze.py
+python experiments/semantic_preservation/translation_embedding_baseline/analyze.py
 ```
 
 Each execution creates an immutable, timestamped run under `runs/`.
