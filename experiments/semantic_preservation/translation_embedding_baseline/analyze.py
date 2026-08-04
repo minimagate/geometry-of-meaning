@@ -18,8 +18,9 @@ import argparse
 import json
 import logging
 import subprocess
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
+from typing import Any
 
 import numpy as np
 import pandas as pd
@@ -61,7 +62,7 @@ def run_analysis(
     dataset = load_experiment_dataset(experiment_dir / "dataset.jsonl")
 
     # Create timestamped run directory
-    run_id = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H%M%S")
+    run_id = datetime.now(UTC).strftime("%Y-%m-%dT%H%M%S")
     run_dir = runs_dir / run_id
     run_dir.mkdir(parents=True, exist_ok=False)
 
@@ -73,7 +74,7 @@ def run_analysis(
     # ── 1. Collect all texts to embed ────────────────────────────────────
 
     # {text_id, language, source_language, category, is_original, is_reference}
-    records: list[dict] = []
+    records: list[dict[str, object]] = []
     texts_to_embed: list[str] = []
 
     enabled_ids = {e["text_id"] for e in dataset if e.get("enabled", True)}
@@ -138,8 +139,8 @@ def run_analysis(
 
     # ── 3. Compute metrics ───────────────────────────────────────────────
 
-    metrics_records: list[dict] = []
-    pairwise_matrices: dict[str, dict] = {}
+    metrics_records: list[dict[str, object]] = []
+    pairwise_matrices: dict[str, dict[str, object]] = {}
     language_centroid_distances: dict[str, dict[str, float]] = {}
 
     for model_id in config["embedding_models"]:
@@ -227,8 +228,8 @@ def run_analysis(
     metrics_df = pd.DataFrame(metrics_records)
 
     # Build embeddings DataFrame with actual vectors
-    emb_records: list[dict] = []
-    for i, rec in enumerate(records):
+    emb_records: list[dict[str, object]] = []
+    for _i, rec in enumerate(records):
         for model_id in config["embedding_models"]:
             key = f"{rec['text_id']}|{rec['language']}"
             if key in all_embeddings[model_id]:
@@ -261,7 +262,7 @@ def run_analysis(
         "random_seed": config["random_seed"],
         "num_texts": len(texts_to_embed),
         "num_enabled_texts": len(enabled_ids),
-        "created_at": datetime.now(timezone.utc).isoformat(),
+        "created_at": datetime.now(UTC).isoformat(),
     }
 
     with open(run_dir / "manifest.yaml", "w", encoding="utf-8") as f:
@@ -290,13 +291,13 @@ def run_analysis(
 
 def _compute_summary(
     metrics_df: pd.DataFrame,
-    pairwise_matrices: dict,
-    language_centroid_distances: dict,
-    config: dict,
-) -> dict:
+    pairwise_matrices: dict[str, Any],
+    language_centroid_distances: dict[str, Any],
+    config: dict[str, Any],
+) -> dict[str, object]:
     """Compute aggregate summary statistics."""
 
-    summary: dict = {
+    summary: dict[str, object] = {
         "description": "Translation embedding baseline — zero-manipulation semantic distances",
         "num_texts": metrics_df["text_id"].nunique() if not metrics_df.empty else 0,
         "num_languages": metrics_df["language"].nunique() if not metrics_df.empty else 0,
@@ -357,7 +358,7 @@ def _compute_summary(
     # Per-text self-consistency (average cross-language similarity for same text)
     text_self_consistency: dict[str, float] = {}
     for text_id, models in pairwise_matrices.items():
-        for model_id, matrix_data in models.items():
+        for _model_id, matrix_data in models.items():
             sim_matrix = np.array(matrix_data["similarity_matrix"])
             languages = matrix_data["languages"]
             # Off-diagonal mean (same text, different languages)
