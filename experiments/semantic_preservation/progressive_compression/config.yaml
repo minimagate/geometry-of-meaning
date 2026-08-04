@@ -1,0 +1,39 @@
+experiment:
+  id: progressive_compression
+  research_area: semantic_preservation
+  description: >
+    Progressive semantic compression across five languages.
+    Measures how cosine similarity, step displacement, and
+    cumulative trajectory length change as texts are compressed
+    from 100% to 10% of their original length.
+
+languages:
+  - en
+  - it
+  - zh
+  - ja
+  - da
+
+embedding_models:
+  - multilingual-e5-large
+
+compression:
+  levels:
+    - 1.00
+    - 0.75
+    - 0.50
+    - 0.25
+    - 0.10
+  method: llm_prompt
+  prompt_file: prompts/compress.md
+
+metrics:
+  - cosine_similarity
+  - step_displacement
+  - cumulative_trajectory_length
+
+random_seed: 42
+
+output:
+  variants_dir: data/variants/semantic_preservation/progressive_compression
+  runs_dir: runs/semantic_preservation/progressive_compression
