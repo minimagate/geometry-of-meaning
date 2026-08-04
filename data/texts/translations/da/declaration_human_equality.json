@@ -1,0 +1,11 @@
+{
+  "text_id": "declaration_human_equality",
+  "language": "da",
+  "source_language": "en",
+  "text": "Vi anser disse sandheder for selvindlysende: at alle mennesker er skabt lige, at de af deres Skaber er blevet udstyret med visse umistelige Rettigheder, at blandt disse er Liv, Frihed og stræben efter Lykke. — At for at sikre disse rettigheder oprettes Regeringer blandt Menneskene, som henter deres retmæssige magt fra de styredes samtykke, — At når som helst nogen Form for Regering bliver ødelæggende for disse formål, er det Folkets Ret at ændre eller afskaffe den og at oprette en ny Regering, som lægger sin grundvold på sådanne principper og organiserer sin magt i en sådan form, som forekommer dem mest sandsynlig til at tilvejebringe deres Sikkerhed og Lykke. Klogskab vil ganske vist tilsige, at længe etablerede Regeringer ikke bør ændres af lette og forbigående årsager; og al erfaring har da også vist, at menneskeheden er mere tilbøjelig til at lide, så længe onderne er udholdelige, end til at rette på sig selv ved at afskaffe de former, den er vant til. Men når en lang række af misbrug og magtovergreb, der uvægerligt forfølger det samme Formål, afslører en plan om at bringe dem under absolut Despoti, er det deres ret, det er deres pligt, at afkaste en sådan Regering og tilvejebringe nye Beskyttelsesmidler for deres fremtidige sikkerhed.",
+  "translation_method": "model_translation",
+  "translator": "Claude (Anthropic)",
+  "model_version": "claude-sonnet-4-20250514",
+  "validation_status": "unreviewed",
+  "review_notes": "Danish translation of the Declaration of Independence. Key choices: 'selvindlysende' for 'self-evident', 'umistelige Rettigheder' for 'unalienable Rights', 'stræben efter Lykke' for 'pursuit of Happiness', 'de styredes samtykke' for 'consent of the governed', 'Despoti' for 'Despotism'. The original capitalization of key political concepts is preserved (Rettigheder, Liv, Frihed, Regering, Folkets, etc.). The causal structure and prudential qualification are preserved. The formal, declarative register of the original is rendered in appropriate Danish. Requires human review."
+}

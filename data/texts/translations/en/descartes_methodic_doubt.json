@@ -1,0 +1,11 @@
+{
+  "text_id": "descartes_methodic_doubt",
+  "language": "en",
+  "source_language": "fr",
+  "text": "I thought it necessary that I do exactly the contrary, and that I reject as absolutely false everything in which I could imagine the slightest doubt, in order to see whether, after this, anything would remain in my belief that was entirely indubitable. Thus, because our senses sometimes deceive us, I resolved to suppose that nothing was such as they make us imagine it to be. And because there are men who err in reasoning, even concerning the simplest matters of geometry, and commit paralogisms, judging that I was subject to error as much as any other, I rejected as false all the reasons I had previously taken for demonstrations. And finally, considering that all the same thoughts we have when awake can also come to us when we sleep, without any of them being true at that time, I resolved to pretend that all the things that had ever entered my mind were no more true than the illusions of my dreams. But immediately afterward, I noticed that, while I wished in this way to think that everything was false, it was necessary that I, who was thinking this, be something. And observing that this truth: I think, therefore I am, was so firm and so assured that all the most extravagant suppositions of the skeptics were incapable of shaking it, I judged that I could accept it, without scruple, as the first principle of the philosophy I was seeking.",
+  "translation_method": "model_translation",
+  "translator": "Claude (Anthropic)",
+  "model_version": "claude-sonnet-4-20250514",
+  "validation_status": "unreviewed",
+  "review_notes": "English translation of Descartes's methodic doubt passage from Discours de la méthode, Part IV. The translation preserves Descartes's logical structure: the resolution to doubt, the three grounds of doubt (senses, reasoning errors, dreams), the discovery of the cogito, and its status as first principle. Technical terms preserved: 'paralogisms', 'indubitable'. The translation maintains the first-person philosophical narrative voice and the cumulative rhetorical rhythm of Descartes's prose. The key phrase 'je pense, donc je suis' is rendered as the standard English 'I think, therefore I am'. Requires human review."
+}

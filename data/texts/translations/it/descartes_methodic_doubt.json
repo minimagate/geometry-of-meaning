@@ -1,0 +1,11 @@
+{
+  "text_id": "descartes_methodic_doubt",
+  "language": "it",
+  "source_language": "fr",
+  "text": "Pensai che fosse necessario fare esattamente il contrario, e che rigettassi come assolutamente falso tutto ciò in cui potessi immaginare il minimo dubbio, per vedere se, dopo questo, rimanesse qualcosa nella mia credenza che fosse interamente indubitabile. Così, poiché i nostri sensi talvolta ci ingannano, volli supporre che non vi fosse alcuna cosa che fosse tale quale essi ce la fanno immaginare. E poiché vi sono uomini che sbagliano ragionando, anche sulle più semplici questioni di geometria, e vi commettono paralogismi, giudicando che io fossi soggetto a errare quanto chiunque altro, rigettai come false tutte le ragioni che avevo in precedenza preso per dimostrazioni. E infine, considerando che tutti i medesimi pensieri che abbiamo da svegli possono anche venirci quando dormiamo, senza che ve ne sia alcuno, in quel momento, che sia vero, mi risolsi a fingere che tutte le cose che mi erano mai entrate nella mente non fossero più vere delle illusioni dei miei sogni. Ma, subito dopo, mi accorsi che, mentre volevo così pensare che tutto fosse falso, era necessario che io, che lo pensavo, fossi qualcosa. E notando che questa verità: penso, dunque sono, era così salda e così certa che tutte le più stravaganti supposizioni degli scettici non erano capaci di scuoterla, giudicai di poterla accogliere, senza scrupolo, come il primo principio della filosofia che cercavo.",
+  "translation_method": "model_translation",
+  "translator": "Claude (Anthropic)",
+  "model_version": "claude-sonnet-4-20250514",
+  "validation_status": "unreviewed",
+  "review_notes": "Italian translation of Descartes's methodic doubt passage from the Discours de la méthode. The translation preserves the logical sequence: resolution to doubt, three skeptical stages (senses, reasoning, dreams), discovery of the cogito, and its establishment as first principle. Key choices: 'indubitabile' for 'indubitable' (standard Italian philosophical term), 'paralogismi' for 'paralogismes', 'penso, dunque sono' for 'je pense, donc je suis' (the standard Italian rendering of the cogito). The first-person narrative voice and Descartes's cumulative rhetorical rhythm are preserved. Requires human review."
+}

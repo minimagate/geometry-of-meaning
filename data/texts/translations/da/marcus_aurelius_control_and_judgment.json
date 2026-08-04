@@ -1,0 +1,11 @@
+{
+  "text_id": "marcus_aurelius_control_and_judgment",
+  "language": "da",
+  "source_language": "grc",
+  "text": "Sig ved dagens begyndelse til dig selv: Jeg vil møde den nævenyttige, den utaknemmelige, den hovmodige, den svigefulde, den misundelige, den usociale. Alle disse ting hænder dem på grund af deres uvidenhed om, hvad der er godt og ondt. Men jeg, der har betragtet det godes natur — at det er smukt — og det ondes — at det er hæsligt — og selve den fejlendes natur — at han er beslægtet med mig, ikke af samme blod eller sæd, men som delagtig i fornuft og en guddommelig andel — jeg kan hverken skades af nogen af dem, for ingen kan dække mig med det hæslige; ej heller kan jeg vredes på min frænde eller hade ham. Thi vi er født til samarbejde, som fødder, som hænder, som øjenlåg, som rækkerne af de øvre og nedre tænder. At handle mod hinanden er derfor imod naturen; og at ærgre sig og vende sig bort er at handle mod hinanden.",
+  "translation_method": "model_translation",
+  "translator": "Claude (Anthropic)",
+  "model_version": "claude-sonnet-4-20250514",
+  "validation_status": "unreviewed",
+  "review_notes": "Danish translation of Marcus Aurelius, Book II, section 1. Preserves the Stoic logical sequence. Key choices: 'smukt/hæsligt' for καλόν/αἰσχρόν (beautiful/ugly — preserving the aesthetic-moral dimension of Stoic vocabulary), 'frænde' for συγγενής (kinsman, shared nature), 'fornuft' for νοῦς, 'guddommelig andel' for θείας ἀπομοίρας, 'samarbejde' for συνεργία (cooperation). The organic metaphor is preserved. Requires human review for Stoic technical vocabulary."
+}

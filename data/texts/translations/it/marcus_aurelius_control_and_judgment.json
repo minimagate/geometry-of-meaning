@@ -1,0 +1,11 @@
+{
+  "text_id": "marcus_aurelius_control_and_judgment",
+  "language": "it",
+  "source_language": "grc",
+  "text": "Di' a te stesso all'inizio del giorno: incontrerò l'impiccione, l'ingrato, l'insolente, l'ingannatore, l'invidioso, l'asociale. Tutte queste cose accadono loro a causa dell'ignoranza di ciò che è bene e di ciò che è male. Ma io, che ho osservato la natura del bene — che esso è bello — e del male — che esso è brutto — e la natura di colui che sbaglia — che egli mi è affine, non per lo stesso sangue o seme, ma come partecipe della mente e di una porzione del divino — non posso essere danneggiato da nessuno di loro, poiché nessuno può coprirmi di ciò che è brutto; né posso adirarmi con il mio affine, né odiarlo. Poiché siamo nati per la cooperazione, come i piedi, come le mani, come le palpebre, come le file dei denti superiori e inferiori. Agire gli uni contro gli altri è dunque contro natura; e adirarsi e voltare le spalle è agire gli uni contro gli altri.",
+  "translation_method": "model_translation",
+  "translator": "Claude (Anthropic)",
+  "model_version": "claude-sonnet-4-20250514",
+  "validation_status": "unreviewed",
+  "review_notes": "Italian translation of Marcus Aurelius, Meditations, Book II, section 1. Preserves the Stoic logical sequence: anticipation, explanation via ignorance of good/evil, recognition of shared rational nature, conclusion about invulnerability and cooperation, organic metaphor. Key choices: 'bello/brutto' for καλόν/αἰσχρόν (preserving the aesthetic-moral dimension of Stoic vocabulary), 'affine' for συγγενής (kinsman, emphasizing shared nature rather than blood relation), 'mente' for νοῦς, 'porzione del divino' for θείας ἀπομοίρας. The translation uses 'impiccione' for περίεργος (meddlesome, busybody) — a colloquial Italian term that captures the everyday quality of the original list of character types. Requires human review for Stoic technical vocabulary."
+}

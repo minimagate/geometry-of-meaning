@@ -1,0 +1,11 @@
+{
+  "text_id": "descartes_methodic_doubt",
+  "language": "zh",
+  "source_language": "fr",
+  "text": "我想，我必须反其道而行之，将一切我能想象出丝毫可疑之处的东西都当作绝对虚假加以摒弃，以便看看此后在我的信念中是否还会留下某种完全无可置疑的东西。因此，由于我们的感官有时会欺骗我们，我决意假定，没有任何事物是如感官让我们想象的那般存在。又由于有人在推理中出错，即使在几何学最简单的题目上也会犯下谬误推理，我断定自己与任何人一样容易犯错，便将先前当作证明接受的所有理由都当作虚假加以摒弃。最后，考虑到我们在清醒时所拥有的一切思想，也能在我们入睡时出现，而在那时却没有一样是真的，我决意假装，所有曾经进入我心灵的事物，都不比我的梦境幻觉更加真实。但紧接着，我注意到，当我愿意这样认为一切都是虚假的时候，那个正在如此思考的我，必然是一个存在着的某物。并观察到这一真理——我思，故我在——是如此坚实、如此确凿，以至于所有怀疑论者最荒谬的假设都无法动摇它，我断定我可以毫不迟疑地将其接受为我所寻求的哲学的第一原理。",
+  "translation_method": "model_translation",
+  "translator": "Claude (Anthropic)",
+  "model_version": "claude-sonnet-4-20250514",
+  "validation_status": "unreviewed",
+  "review_notes": "Chinese translation of Descartes's methodic doubt passage. Preserves the logical sequence: resolution to doubt, three skeptical stages, discovery of the cogito, and establishment as first principle. Key choices: '我思，故我在' for 'je pense, donc je suis' (the standard Chinese rendering), '无可置疑' for 'indubitable', '谬误推理' for 'paralogisms', '第一原理' for 'first principle'. The translation maintains the first-person philosophical narrative voice. Requires human review."
+}

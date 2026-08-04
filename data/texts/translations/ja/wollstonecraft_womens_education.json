@@ -1,0 +1,11 @@
+{
+  "text_id": "wollstonecraft_womens_education",
+  "language": "ja",
+  "source_language": "en",
+  "text": "女性の権利を擁護するにあたり、私の主たる議論はこの単純な原理に基づいている。すなわち、もし彼女が教育によって男性の伴侶となる準備を整えられなければ、彼女は知識と美徳の進歩を阻むであろう。なぜなら、真理はすべての人に共有されなければ、一般的実践に対する影響力において無効となるからである。そして、自分がなぜ有徳であるべきかを知らなければ、どうして女性が協力することを期待できようか。自由が彼女の理性を強化し、自らの義務を理解し、それがいかにして自らの真の善と結びついているかを理解するまでは。もし子供たちが愛国心の真の原理を理解するように教育されねばならないなら、彼らの母親は愛国者でなければならない。そして、秩序ある一連の美徳がそこから生じる人類への愛は、人類の道徳的および市民的利益を考察することによってのみ生み出されうる。しかし、女性の現在の教育と境遇は、彼女をそのような探求から締め出している。\n\n考えてみてほしい——私は立法者としてあなたに語りかけている——男性が自らの自由のために闘い、自らの幸福に関して自分で判断することを許されるよう求めているときに、女性を従属させることは——たとえあなたが女性の幸福を促進するために最善の方法で行動していると固く信じているとしても——矛盾し不正ではないだろうか。もし女性が理性という賜物を男性と分かち持つのであれば、誰が男性を排他的な審判者としたのか。",
+  "translation_method": "model_translation",
+  "translator": "Claude (Anthropic)",
+  "model_version": "claude-sonnet-4-20250514",
+  "validation_status": "unreviewed",
+  "review_notes": "Japanese translation of Wollstonecraft's passage. Preserves the two-paragraph argumentative structure. Key choices: '擁護する' for 'contending for' (defending/advocating), '伴侶' for 'companion' (intellectual partner), '理性という賜物' for 'gift of reason', '排他的な審判者' for 'exclusive judge'. The formal eighteenth-century argumentative register is rendered in modern Japanese that preserves the logical density and rhetorical force. Requires human review."
+}

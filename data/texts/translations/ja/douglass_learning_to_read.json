@@ -1,0 +1,11 @@
+{
+  "text_id": "douglass_learning_to_read",
+  "language": "ja",
+  "source_language": "en",
+  "text": "オールド夫妻のもとに住むようになってまもなく、彼女は非常に親切にも私にアルファベットを教え始めた。私がこれを学んだ後、彼女は三文字か四文字の単語の綴りを学ぶのを手伝ってくれた。私の進歩がまさにこの時点に達したとき、オールド氏は何が起こっているかを見つけ、すぐさまオールド夫人がこれ以上私を教えることを禁じた。彼は彼女に、とりわけ、奴隷に読み方を教えることは違法であると同時に危険であると言った。さらに、彼自身の言葉を使えば、彼はこう言った。「黒んぼに一寸を与えれば、一尺を取られるものだ。黒んぼは主人に従うことだけを知るべきだ——言われた通りにすることだけをな。学問は世界中のどんな黒んぼも台無しにするだろう。いいか」と彼は言った、「もしおまえがあの黒んぼ（私のことを指して）に読み方を教えたら、もう彼を押さえておくことはできなくなる。それは彼を奴隷であることに永遠に不適格にするだろう。彼はすぐに手に負えなくなり、主人にとって何の価値もなくなる。彼自身にとっては、何の益もなく、大きな害をもたらすだけだ。それは彼を不満で不幸にするだろう。」これらの言葉は私の心の奥深くに沈み、眠っていた感情をかき立て、まったく新しい思考の流れを呼び起こした。それは新しく特別な啓示であり、私の幼い理解力が苦闘してきたが無駄に苦闘してきた、暗く神秘的な事柄を説明するものであった。私は今や、私にとって最も当惑させる難問であったもの——すなわち、白人による黒人奴隷化の力——を理解した。それは壮大な達成であり、私はそれを高く評価した。その瞬間から、私は奴隷状態から自由への道筋を理解した。",
+  "translation_method": "model_translation",
+  "translator": "Claude (Anthropic)",
+  "model_version": "claude-sonnet-4-20250514",
+  "validation_status": "unreviewed",
+  "review_notes": "Japanese translation of Douglass's learning-to-read passage. Preserves the three-part structure: narrated event, quoted speech, and revelation. Key choices: the racial slur 'nigger' is rendered as '黒んぼ' (a historically charged Japanese term), '奴隷状態から自由への道筋' for 'pathway from slavery to freedom'. The proverb is rendered with the parallel structure '一寸...一尺'. The causal argument (literacy→freedom) is preserved. Requires human review."
+}

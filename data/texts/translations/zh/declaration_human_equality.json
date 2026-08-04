@@ -1,0 +1,11 @@
+{
+  "text_id": "declaration_human_equality",
+  "language": "zh",
+  "source_language": "en",
+  "text": "我们认为这些真理是不言而喻的：人人生而平等，他们都由他们的造物主赋予了某些不可剥夺的权利，其中包括生命权、自由权和追求幸福的权利。——为了保障这些权利，人类才在他们中间建立政府，而政府的正当权力，源于被统治者的同意；——无论何时，当任何形式的政府对这些目标具有破坏作用时，人民便有权改变或废除它，并建立新的政府，将其奠基在这样的原则之上，并以这样的形式组织其权力，使其看来最有可能实现他们的安全和幸福。诚然，审慎会指示，不应因轻微和暂时的原因而改变成立已久的政府；而一切经验也已表明，当罪恶尚可忍受时，人类更倾向于忍受，而非通过废除他们已习惯的形式来匡正自己。但是，当一连串的滥用和篡夺，始终如一地追求同一目标，显示出将人民置于绝对专制之下的图谋时，推翻这样的政府，并为其未来的安全提供新的保障，便是他们的权利，也是他们的义务。",
+  "translation_method": "model_translation",
+  "translator": "Claude (Anthropic)",
+  "model_version": "claude-sonnet-4-20250514",
+  "validation_status": "unreviewed",
+  "review_notes": "Chinese translation of the Declaration of Independence, second paragraph. Key choices: '不言而喻' for 'self-evident' (the standard Chinese rendering), '不可剥夺的权利' for 'unalienable Rights', '追求幸福' for 'pursuit of Happiness', '被统治者的同意' for 'consent of the governed', '绝对专制' for 'absolute Despotism'. The causal structure and prudential qualification are preserved. The em-dash clause separation is rendered with Chinese dashes. Requires human review."
+}

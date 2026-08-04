@@ -1,0 +1,11 @@
+{
+  "text_id": "wollstonecraft_womens_education",
+  "language": "da",
+  "source_language": "en",
+  "text": "Når jeg forsvarer kvindens rettigheder, er mit hovedargument bygget på dette enkle princip: at hvis hun ikke gennem uddannelse forberedes til at blive mandens ledsager, vil hun standse kundskabens og dydens fremskridt; thi sandhed må være fælles for alle, ellers vil den være virkningsløs med hensyn til sin indflydelse på den almindelige praksis. Og hvordan kan man forvente, at kvinden samarbejder, hvis hun ikke ved, hvorfor hun bør være dydig? hvis ikke frihed styrker hendes fornuft, indtil hun forstår sin pligt og ser, på hvilken måde den er forbundet med hendes sande gode? Hvis børn skal opdrages til at forstå patriotismens sande princip, må deres moder være en patriot; og kærligheden til menneskeheden, hvoraf en ordnet række af dyder udspringer, kan kun frembringes ved at betragte menneskehedens moralske og borgerlige interesse; men kvindens nuværende uddannelse og situation udelukker hende fra sådanne undersøgelser.\n\nOvervej — jeg henvender mig til Dem som lovgiver — om det ikke, når mænd kæmper for deres frihed og for at få lov til selv at dømme om deres egen lykke, er inkonsekvent og uretfærdigt at underkue kvinder, selv om De fuldt og fast tror, at De handler på den måde, der bedst kan fremme deres lykke? Hvem gjorde manden til den ene dommer, hvis kvinden deler fornuftens gave med ham?",
+  "translation_method": "model_translation",
+  "translator": "Claude (Anthropic)",
+  "model_version": "claude-sonnet-4-20250514",
+  "validation_status": "unreviewed",
+  "review_notes": "Danish translation of Wollstonecraft's passage. Preserves the two-paragraph argumentative structure. Key choices: 'ledsager' for 'companion' (intellectual partner, not merely spouse), 'fornuftens gave' for 'gift of reason', 'den ene dommer' for 'exclusive judge'. The formal eighteenth-century register is rendered in modern Danish. The rhetorical question structure is preserved. Requires human review."
+}

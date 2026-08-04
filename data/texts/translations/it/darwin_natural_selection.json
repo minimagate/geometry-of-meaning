@@ -1,0 +1,11 @@
+{
+  "text_id": "darwin_natural_selection",
+  "language": "it",
+  "source_language": "en",
+  "text": "Il principio di selezione, che abbiamo visto essere così potente nelle mani dell'uomo, può applicarsi in natura? Penso che vedremo che può agire con la massima efficacia. Si tenga a mente quanto infinitamente complesse e strettamente interconnesse siano le relazioni reciproche di tutti gli esseri organici tra loro e con le loro condizioni fisiche di vita. Si può dunque ritenere improbabile, visto che variazioni utili all'uomo si sono indubbiamente verificate, che altre variazioni utili in qualche modo a ciascun essere nella grande e complessa battaglia della vita possano talvolta verificarsi nel corso di migliaia di generazioni? Se tali variazioni si verificano, possiamo dubitare (ricordando che nascono molti più individui di quanti possano sopravvivere) che gli individui che possiedono un qualsiasi vantaggio, per quanto lieve, sugli altri abbiano le migliori probabilità di sopravvivere e di procreare la propria specie? D'altra parte, possiamo essere certi che qualsiasi variazione, anche nel minimo grado dannosa, verrebbe inesorabilmente eliminata. Questa conservazione delle variazioni favorevoli e l'eliminazione di quelle dannose, io la chiamo Selezione Naturale.",
+  "translation_method": "model_translation",
+  "translator": "Claude (Anthropic)",
+  "model_version": "claude-sonnet-4-20250514",
+  "validation_status": "unreviewed",
+  "review_notes": "Italian translation of Darwin's natural selection passage. Preserves the scientific argument structure: analogy with artificial selection, ecological complexity, variation, differential survival, and the definition of natural selection. Key choices: 'Selezione Naturale' (capitalized, matching the original's emphasis), 'variazioni favorevoli/dannose' for 'favourable/injurious variations', 'inesorabilmente eliminata' for 'rigidly destroyed'. The rhetorical questions and parenthetical asides are preserved. Requires human review."
+}

@@ -1,0 +1,11 @@
+{
+  "text_id": "marcus_aurelius_control_and_judgment",
+  "language": "zh",
+  "source_language": "grc",
+  "text": "清晨便对自己说：我将遇到好管闲事之人、忘恩负义之人、傲慢无礼之人、欺诈之人、嫉妒之人、不合群之人。所有这些事情之所以发生在他们身上，是因为他们对善与恶的无知。但我，既已洞见善的本性——它是美的——恶的本性——它是丑的——并且洞见那犯错者的本性——他与我是同类，并非出于相同的血缘或种子，而是作为理性和一份神性的共同分享者——我便既不能被他们中的任何人所伤害，因为无人能以丑恶覆盖我；也不能对我的同类发怒，也不能憎恨他。因为我们生来是为了合作，如同双脚，如同双手，如同眼睑，如同上下两排牙齿。因此，彼此为敌是违背自然的；而恼怒和疏远便是彼此为敌。",
+  "translation_method": "model_translation",
+  "translator": "Claude (Anthropic)",
+  "model_version": "claude-sonnet-4-20250514",
+  "validation_status": "unreviewed",
+  "review_notes": "Chinese translation of Marcus Aurelius, Meditations, Book II, section 1. Preserves the Stoic logical sequence. Key choices: '美/丑' for καλόν/αἰσχρόν (beautiful/ugly — preserving the aesthetic-moral dimension), '同类' for συγγενής (kinsman, understood as shared nature), '理性' for νοῦς (mind/reason), '神性' for θείας (divine), '合作' for συνεργία (cooperation). The organic metaphor of bodily parts is preserved. Requires human review for Stoic technical vocabulary."
+}

@@ -1,0 +1,11 @@
+{
+  "text_id": "wollstonecraft_womens_education",
+  "language": "it",
+  "source_language": "en",
+  "text": "Nel rivendicare i diritti della donna, il mio argomento principale si fonda su questo semplice principio: che se ella non viene preparata dall'educazione a diventare la compagna dell'uomo, arresterà il progresso della conoscenza e della virtù; poiché la verità deve essere comune a tutti, altrimenti sarà inefficace rispetto alla sua influenza sulla pratica generale. E come ci si può aspettare che la donna cooperi se non sa perché dovrebbe essere virtuosa? se la libertà non rafforza la sua ragione finché non comprende il proprio dovere e non vede in che modo esso sia connesso al suo vero bene? Se i bambini devono essere educati a comprendere il vero principio del patriottismo, la loro madre deve essere una patriota; e l'amore per l'umanità, da cui scaturisce una serie ordinata di virtù, può essere prodotto solo considerando l'interesse morale e civile dell'umanità; ma l'educazione e la situazione della donna, allo stato attuale, la esclude da tali indagini.\n\nConsiderate, mi rivolgo a voi come legislatore, se, quando gli uomini lottano per la loro libertà e per poter giudicare da sé riguardo alla propria felicità, non sia incoerente e ingiusto soggiogare le donne, anche se credete fermamente di agire nel modo più adatto a promuovere la loro felicità. Chi ha reso l'uomo giudice esclusivo, se la donna condivide con lui il dono della ragione?",
+  "translation_method": "model_translation",
+  "translator": "Claude (Anthropic)",
+  "model_version": "claude-sonnet-4-20250514",
+  "validation_status": "unreviewed",
+  "review_notes": "Italian translation of Wollstonecraft's passage from A Vindication of the Rights of Woman. Preserves the two-paragraph argumentative structure: the universal principle (education as prerequisite for moral progress), the consequences (mothers as educators of patriots), and the rhetorical confrontation with the legislator-reader. Key choices: 'rivendicare' for 'contending for' (captures the argumentative and rights-claiming sense), 'compagna' for 'companion' (the rational partner, not merely spouse), 'dono della ragione' for 'gift of reason'. The eighteenth-century register is rendered in modern Italian that preserves the formal argumentative tone. Requires human review."
+}

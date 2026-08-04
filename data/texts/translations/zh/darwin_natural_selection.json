@@ -1,0 +1,11 @@
+{
+  "text_id": "darwin_natural_selection",
+  "language": "zh",
+  "source_language": "en",
+  "text": "我们在人类手中已经看到选择原则如此强大，那么它能否在自然界中发挥作用？我认为我们将看到它能够最为有效地运作。请记住，所有有机生命彼此之间以及与其物质生活条件之间的相互关系是何等无限复杂和紧密契合。既然对人类有用的变异毫无疑问已经发生，那么，在大自然伟大而复杂的生存斗争中，对每个生物以某种方式有用的其他变异，在数千代的过程中难道不会偶尔出现吗？如果这样的变异确实出现，我们能否怀疑（记住，出生的个体数量远多于可能存活的数量），那些比其他个体拥有任何优势——无论多么微小——的个体，将具有最好的生存和繁衍后代的机会？另一方面，我们可以确信，任何哪怕是最轻微程度的有害变异都会被严格消灭。这种对有利变异的保存和对有害变异的淘汰，我称之为自然选择。",
+  "translation_method": "model_translation",
+  "translator": "Claude (Anthropic)",
+  "model_version": "claude-sonnet-4-20250514",
+  "validation_status": "unreviewed",
+  "review_notes": "Chinese translation of Darwin's natural selection passage. Preserves the scientific argument structure: analogy with artificial selection, ecological complexity, variation, differential survival, and the definition. Key choices: '自然选择' for 'Natural Selection' (the standard Chinese scientific term), '有利变异/有害变异' for 'favourable/injurious variations', '严格消灭' for 'rigidly destroyed'. The rhetorical questions are rendered with Chinese question particles (难道...吗). The parenthetical structure is preserved. Requires human review."
+}
