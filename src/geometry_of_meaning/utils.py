@@ -14,9 +14,10 @@ import logging
 import os
 import random
 import sys
+from collections.abc import Iterable
 from datetime import UTC, datetime
 from pathlib import Path
-from typing import Any
+from typing import Any, cast
 
 import yaml
 
@@ -47,6 +48,9 @@ def load_config(config_path: Path) -> dict[str, Any]:
 
     if config is None:
         raise ValueError(f"Configuration file is empty: {config_path}")
+
+    if not isinstance(config, dict):
+        raise ValueError(f"Configuration must be a mapping: {config_path}")
 
     return config
 
@@ -232,7 +236,9 @@ def setup_logging(
 # ---------------------------------------------------------------------------
 
 
-def progress_bar(iterable, desc: str = "", total: int | None = None):
+def progress_bar(
+    iterable: Iterable[Any], desc: str = "", total: int | None = None
+) -> Iterable[Any]:
     """
     Thin wrapper around tqdm for progress bars.
 
@@ -247,6 +253,6 @@ def progress_bar(iterable, desc: str = "", total: int | None = None):
     try:
         from tqdm import tqdm
 
-        return tqdm(iterable, desc=desc, total=total)
+        return cast(Iterable[Any], tqdm(iterable, desc=desc, total=total))
     except ImportError:
         return iterable
