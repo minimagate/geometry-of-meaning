@@ -1,0 +1,12 @@
+{
+  "paper": "#ffffff",
+  "surface": "#ffffff",
+  "ink": "#0d0d0d",
+  "muted": "#5d5d5d",
+  "quiet": "#818181",
+  "rule": "#e8e8e8",
+  "rule_strong": "#d8d8d8",
+  "soft": "#f4f4f4",
+  "grid": "rgba(13, 13, 13, 0.09)",
+  "accent": "#0d0d0d"
+}

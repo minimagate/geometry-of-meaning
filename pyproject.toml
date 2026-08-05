@@ -43,8 +43,13 @@ embeddings = [
     "scikit-learn>=1.3.0",
     "torch>=2.0.0",
 ]
+visualization = [
+    "dash>=3.0.0",
+    "plotly>=6.0.0",
+    "scikit-learn>=1.3.0",
+]
 all = [
-    "geometry-of-meaning[dev,embeddings]",
+    "geometry-of-meaning[dev,embeddings,visualization]",
 ]
 
 [tool.setuptools.packages.find]
@@ -85,6 +90,11 @@ warn_unused_configs = true
 
 [[tool.mypy.overrides]]
 module = [
+    "pandas",
+    "plotly",
+    "plotly.*",
+    "sklearn",
+    "sklearn.*",
     "sentence_transformers",
     "torch",
     "yaml",
