@@ -57,4 +57,4 @@ For texts originally in one of the 5 comparison languages, the canonical version
 - **descartes_methodic_doubt**: Uses modernized French orthography rather than 1637 original spelling.
 - **odyssey_opening_invocation**: Greek text (Book 1, lines 1–32) ends mid-scene at Zeus beginning to speak. Verification against the printed Oxford Classical Text (Allen, 1917) is recommended. The end boundary was chosen because line 32 is a natural transition — Zeus has just recalled Aegisthus and is about to deliver his speech.
 - All texts and translations added 2025-07-28 are marked `validation_status: unreviewed` pending human review.
-- **Structure**: As of 2025-07-28, originals use a folder-per-text layout (`<text_id>/source.txt` + `<text_id>/metadata.json`).
+This is **corpus version v0.1.0**, stored under `data/texts/v0.1.0/`. When the corpus changes (texts added, removed, or corrected), the version is bumped and a new directory is created under `data/texts/`. Within this version, originals use a folder-per-text layout (`<text_id>/source.txt` + `<text_id>/metadata.json`).

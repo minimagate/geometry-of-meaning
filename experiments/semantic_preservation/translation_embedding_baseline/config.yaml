@@ -33,5 +33,5 @@ metrics:
 random_seed: 42
 
 output:
-  variants_dir: data/variants/semantic_preservation/translation_embedding_baseline
+  variants_dir: data/variants/semantic_preservation/translation_embedding_baseline/v0.1.0
   runs_dir: runs/semantic_preservation/translation_embedding_baseline

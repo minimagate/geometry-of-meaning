@@ -2,8 +2,8 @@
 Data management for the Geometry of Meaning project.
 
 Handles loading, validation, and storage of:
-  - Canonical original texts (data/texts/originals/)
-  - Canonical translations (data/texts/translations/)
+  - Canonical original texts (data/texts/<version>/originals/)
+  - Canonical translations (data/texts/<version>/translations/)
   - Experiment datasets (experiments/.../dataset.jsonl)
   - Generated variants (data/variants/.../)
 """
@@ -15,6 +15,24 @@ from pathlib import Path
 from typing import Any
 
 logger = logging.getLogger(__name__)
+
+CORPUS_VERSION = "v0.1.0"
+
+
+def get_corpus_dir(repo_root: Path) -> Path:
+    return repo_root / "data" / "texts" / CORPUS_VERSION
+
+
+def get_originals_dir(repo_root: Path) -> Path:
+    return get_corpus_dir(repo_root) / "originals"
+
+
+def get_translations_dir(repo_root: Path) -> Path:
+    return get_corpus_dir(repo_root) / "translations"
+
+
+def get_metadata_dir(repo_root: Path) -> Path:
+    return get_corpus_dir(repo_root) / "metadata"
 
 # Valid ISO 639-1 language codes used in this project
 VALID_LANGUAGES = {"en", "it", "zh", "ja", "da"}
@@ -112,7 +130,7 @@ def load_original_text(originals_dir: Path, text_id: str) -> OriginalText:
     Load a canonical original text by its text_id.
 
     Args:
-        originals_dir: Path to data/texts/originals/
+        originals_dir: Path to data/texts/<version>/originals/
         text_id: The text identifier (matches folder name, e.g., 'pride_and_prejudice_opening')
 
     Returns:
@@ -153,7 +171,7 @@ def load_translation(translations_dir: Path, text_id: str, language: str) -> Tra
     Load a canonical translation by text_id and language.
 
     Args:
-        translations_dir: Path to data/texts/translations/
+        translations_dir: Path to data/texts/<version>/translations/
         text_id: The text identifier.
         language: The ISO 639-1 language code of the translation.
 

@@ -17,6 +17,7 @@ from pathlib import Path
 from typing import Any
 
 from geometry_of_meaning.data import (
+    CORPUS_VERSION,
     VariantRecord,
     load_experiment_dataset,
     load_original_text,
@@ -57,8 +58,8 @@ def load_source_texts_for_language(
     dataset = load_experiment_dataset(experiment_dir / "dataset.jsonl")
     enabled_ids = [e["text_id"] for e in dataset if e.get("enabled", True)]
 
-    originals_dir = texts_dir / "originals"
-    translations_dir = texts_dir / "translations"
+    originals_dir = texts_dir / CORPUS_VERSION / "originals"
+    translations_dir = texts_dir / CORPUS_VERSION / "translations"
 
     results: list[dict[str, Any]] = []
     for text_id in enabled_ids:
@@ -217,7 +218,10 @@ def main() -> None:
 
     experiment_relative = args.experiment_dir.resolve().relative_to(repo_root)
     mirror_path = Path(*experiment_relative.parts[1:])
-    variants_dir = args.variants_dir or repo_root / "data" / "variants" / mirror_path
+    variants_dir = (
+        args.variants_dir
+        or repo_root / "data" / "variants" / mirror_path / CORPUS_VERSION
+    )
 
     config = load_config(args.experiment_dir / "config.yaml")
     languages = [args.language] if args.language else config["languages"]

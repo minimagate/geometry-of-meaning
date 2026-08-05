@@ -51,5 +51,5 @@ metrics:
 random_seed: 42
 
 output:
-  variants_dir: data/variants/semantic_preservation/cross_lingual_compression
+  variants_dir: data/variants/semantic_preservation/cross_lingual_compression/v0.1.0
   runs_dir: runs/semantic_preservation/cross_lingual_compression

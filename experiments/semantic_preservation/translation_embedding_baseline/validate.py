@@ -13,6 +13,7 @@ import sys
 from pathlib import Path
 
 from geometry_of_meaning.data import (
+    CORPUS_VERSION,
     load_experiment_dataset,
     load_original_text,
     load_variants,
@@ -95,7 +96,7 @@ def validate_variants(
                 expected_text_ids.add(record.text_id)
 
             try:
-                load_original_text(texts_dir / "originals", record.text_id)
+                load_original_text(texts_dir / CORPUS_VERSION / "originals", record.text_id)
             except FileNotFoundError:
                 errors.append(
                     f"Variant '{record.variant_id}' references non-existent "
@@ -165,7 +166,10 @@ def main() -> None:
 
     experiment_relative = args.experiment_dir.resolve().relative_to(repo_root)
     mirror_path = Path(*experiment_relative.parts[1:])
-    variants_dir = args.variants_dir or repo_root / "data" / "variants" / mirror_path
+    variants_dir = (
+        args.variants_dir
+        or repo_root / "data" / "variants" / mirror_path / CORPUS_VERSION
+    )
 
     errors, warnings = validate_variants(args.experiment_dir, texts_dir, variants_dir)
 

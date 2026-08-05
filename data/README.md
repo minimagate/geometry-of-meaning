@@ -1,29 +1,34 @@
 # Data Directory
 
-The stable textual corpus lives in `data/texts/`. It is manually curated and never modified by experiment scripts.
+The stable textual corpus lives, versioned, under `data/texts/<version>/`. It is manually curated and never modified by experiment scripts.
 
 ## Directory structure
 
 ```
 data/
 ├── texts/
-│   ├── originals/          ← one folder per canonical source text
-│   │   └── <text_id>/
-│   │       ├── source.txt      ← verbatim passage (no metadata)
-│   │       └── metadata.json   ← title, author, category, etc.
-│   ├── translations/       ← one JSON file per text per language
-│   │   └── <lang>/<text_id>.json
-│   ├── metadata/
-│   │   └── corpus.jsonl    ← aggregate corpus metadata
-│   └── CORPUS_INDEX.md     ← human-readable corpus overview
-└── variants/               ← generated experimental variants
-    └── <area>/<experiment>/
+│   └── <version>/            ← corpus version (e.g., v0.1.0)
+│       ├── originals/        ← one folder per canonical source text
+│       │   └── <text_id>/
+│       │       ├── source.txt      ← verbatim passage (no metadata)
+│       │       └── metadata.json   ← title, author, category, etc.
+│       ├── translations/     ← one JSON file per text per language
+│       │   └── <lang>/<text_id>.json
+│       ├── metadata/
+│       │   └── corpus.jsonl  ← aggregate corpus metadata
+│       └── CORPUS_INDEX.md   ← human-readable corpus overview
+└── variants/                 ← generated experimental variants
+    └── <area>/<experiment>/<version>/
         └── <lang>/<text_id>.jsonl
 ```
 
 ## Current corpus
 
-**12 texts** across 7 original languages, translated into **5 comparison languages** (en, it, zh, ja, da). See [CORPUS_INDEX.md](texts/CORPUS_INDEX.md) for the full catalog.
+**12 texts** across 7 original languages, translated into **5 comparison languages** (en, it, zh, ja, da). See [CORPUS_INDEX.md](texts/v0.1.0/CORPUS_INDEX.md) for the full catalog.
+
+## Corpus versioning
+
+Both `data/texts/` and `data/variants/` are versioned. Canonical texts live under `data/texts/<version>/`, and generated variants are versioned per experiment under `data/variants/<area>/<experiment>/<version>/`. When the corpus changes (texts added, removed, or corrected), bump the corpus version and create a new versioned directory.
 
 ## Adding to the corpus
 

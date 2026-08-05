@@ -44,7 +44,7 @@ The repository follows a mirrored hierarchy: every experiment has three correspo
 
 ```
 experiments/<area>/<experiment>/    ← protocol, config, validate, analyze
-data/variants/<area>/<experiment>/   ← generated textual variants
+data/variants/<area>/<experiment>/<version>/   ← generated textual variants
 runs/<area>/<experiment>/            ← numerical results (immutable)
 ```
 
@@ -52,11 +52,11 @@ For example, the Translation Embedding Baseline experiment lives at:
 
 ```
 experiments/semantic_preservation/translation_embedding_baseline/
-data/variants/semantic_preservation/translation_embedding_baseline/
+data/variants/semantic_preservation/translation_embedding_baseline/v0.1.0/
 runs/semantic_preservation/translation_embedding_baseline/
 ```
 
-The stable textual corpus lives separately under `data/texts/`.
+The stable textual corpus lives separately, versioned under `data/texts/<version>/` (currently `v0.1.0`).
 
 ## Installation
 

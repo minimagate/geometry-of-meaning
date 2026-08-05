@@ -43,7 +43,7 @@ This experiment systematically measures meaning preservation under compression a
 
 ## Dataset
 
-All 12 canonical texts from `data/texts/originals/` and their translations in all 5 languages from `data/texts/translations/`:
+All 12 canonical texts from `data/texts/v0.1.0/originals/` and their translations in all 5 languages from `data/texts/v0.1.0/translations/`:
 
 | text_id | original_language | category |
 |---|---|---|

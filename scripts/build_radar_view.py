@@ -45,7 +45,7 @@ LANGUAGE_LABELS = {
 
 def load_titles() -> dict[str, str]:
     titles = {}
-    originals_dir = REPO_ROOT / "data/texts/originals"
+    originals_dir = REPO_ROOT / "data/texts/v0.1.0/originals"
     for meta_path in sorted(originals_dir.glob("*/metadata.json")):
         with open(meta_path) as f:
             md = json.load(f)

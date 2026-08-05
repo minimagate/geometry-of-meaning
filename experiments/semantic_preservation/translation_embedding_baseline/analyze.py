@@ -27,6 +27,7 @@ import pandas as pd
 import yaml
 
 from geometry_of_meaning.data import (
+    CORPUS_VERSION,
     load_experiment_dataset,
     load_original_text,
     load_translation,
@@ -100,7 +101,7 @@ def run_analysis(
         text_id = entry["text_id"]
         category = entry.get("category", "unknown")
 
-        original = load_original_text(texts_dir / "originals", text_id)
+        original = load_original_text(texts_dir / CORPUS_VERSION / "originals", text_id)
         source_language = original.original_language
 
         # Add the original text (in its original language)
@@ -119,7 +120,8 @@ def run_analysis(
             if language == source_language:
                 continue
 
-            translation = load_translation(texts_dir / "translations", text_id, language)
+            trans_dir = texts_dir / CORPUS_VERSION / "translations"
+            translation = load_translation(trans_dir, text_id, language)
             texts_to_embed.append(translation.text)
             records.append({
                 "text_id": text_id,

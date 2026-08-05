@@ -29,7 +29,7 @@ assignees: []
 
 ## Corpus selection
 
-<!-- Which texts from data/texts/originals/? All 12, or a subset? Why? -->
+<!-- Which texts from data/texts/<version>/originals/? All 12, or a subset? Why? -->
 
 ## Prompt strategy
 
