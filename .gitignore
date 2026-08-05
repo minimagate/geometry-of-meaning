@@ -56,3 +56,6 @@ logs/
 tmp/
 temp/
 *.tmp
+
+# Generated HTML visualizations
+radar_view.html
