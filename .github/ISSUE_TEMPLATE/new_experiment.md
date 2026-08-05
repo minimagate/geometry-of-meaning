@@ -37,7 +37,7 @@ assignees: []
 
 ## Expected deliverable
 
-<!-- What does the completed experiment look like? (generate.py + analyze.py + run) -->
+<!-- What does the completed experiment look like? (validate.py + analyze.py + run) -->
 
 ## Dependencies
 

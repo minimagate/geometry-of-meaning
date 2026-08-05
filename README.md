@@ -43,7 +43,7 @@ This design means you can answer questions like "Which language preserves meanin
 The repository follows a mirrored hierarchy: every experiment has three corresponding locations representing three stages of the research pipeline.
 
 ```
-experiments/<area>/<experiment>/    ← protocol, config, generate, analyze
+experiments/<area>/<experiment>/    ← protocol, config, validate, analyze
 data/variants/<area>/<experiment>/   ← generated textual variants
 runs/<area>/<experiment>/            ← numerical results (immutable)
 ```
@@ -80,8 +80,8 @@ Requirements: Python 3.11+.
 ### Running an existing experiment
 
 ```bash
-# Generate variants for the translation embedding baseline experiment
-python experiments/semantic_preservation/translation_embedding_baseline/generate.py
+# Validate variants for the translation embedding baseline experiment
+python experiments/semantic_preservation/translation_embedding_baseline/validate.py
 
 # Run the numerical analysis
 python experiments/semantic_preservation/translation_embedding_baseline/analyze.py
@@ -103,7 +103,7 @@ Each execution creates an immutable, timestamped run under `runs/`.
    - `config.yaml` — experimental variables
    - `dataset.jsonl` — text selection
    - `prompts/` — generation and evaluation prompts
-   - `generate.py` — variant generation script
+   - `validate.py` — variant validation script
    - `analyze.py` — numerical analysis script
 
 3. Reference texts from `data/texts/` using their `text_id`. Do not copy them.

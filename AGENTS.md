@@ -57,7 +57,7 @@ Skills are stored as Markdown files under `.agents/skills/<skill-name>/SKILL.md`
 
 ### Reusable logic
 
-**Do not place reusable logic inside experiment scripts.** If two experiments might need the same functionality, it belongs in `src/geometry_of_meaning/`. Experiment scripts (`generate.py`, `analyze.py`) should be thin orchestrators that call shared library functions.
+**Do not place reusable logic inside experiment scripts.** If two experiments might need the same functionality, it belongs in `src/geometry_of_meaning/`. Experiment scripts (`validate.py`, `analyze.py`) should be thin orchestrators that call shared library functions.
 
 ### Immutable runs
 
@@ -77,7 +77,7 @@ experiments/<area>/<experiment>/
 ├── config.yaml        ← experimental variables
 ├── dataset.jsonl      ← text selection
 ├── prompts/           ← generation/evaluation prompts
-├── generate.py        ← variant generation
+├── validate.py        ← variant validation
 └── analyze.py         ← numerical analysis
 ```
 
@@ -200,8 +200,8 @@ An experiment follows this pipeline:
 
 1. **Load canonical texts** from `data/texts/originals/` and `data/texts/translations/`
 2. **Read configuration** from `config.yaml` and `dataset.jsonl`
-3. **Generate variants** using prompts from `prompts/`
-4. **Validate** generated records
+3. **Generate variants** (via subagents, writing to `data/variants/`)
+4. **Validate** generated records with `validate.py`
 5. **Write variants** to the mirrored path under `data/variants/`
 6. **Embed texts** using shared code from `src/geometry_of_meaning/embeddings.py`
 7. **Calculate metrics** using shared code from `src/geometry_of_meaning/metrics.py`

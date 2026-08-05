@@ -14,11 +14,7 @@ This experiment establishes that baseline. It embeds all 12 canonical texts in a
 
 ## Hypothesis
 
-1. **Semantic content dominates language surface form.** Embeddings of the same text in different languages are more similar to each other than embeddings of different texts in the same language.
-
-2. **Translation distance varies by language pair.** Some language pairs produce more similar embeddings than others, reflecting the embedding model's cross-lingual alignment quality.
-
-3. **Text category modulates translation drift.** Abstract/philosophical texts may show larger cross-language distances than narrative/descriptive ones, because their meaning depends more on language-specific conceptual structures.
+...
 
 ## Independent variables
 
@@ -65,11 +61,12 @@ All 12 canonical texts from `data/texts/originals/` and their translations in al
 
 1. Load all 12 canonical texts and their translations in en, it, zh, ja, da
 2. Save translations as "variants" at compression_level=1.0 (no manipulation)
-3. Embed all 60 texts (12 × 5 languages) using the configured embedding model
-4. For each text, compute the 5×5 pairwise cosine similarity matrix across languages
-5. For each text, measure cosine similarity and Euclidean distance from English to each translation
-6. Compute aggregate statistics: per-language similarity distributions, centroid distances
-7. Save results as a timestamped immutable run
+3. Validate variants with `validate.py` to ensure structural integrity
+4. Embed all 60 texts (12 × 5 languages) using the configured embedding model
+5. For each text, compute the 5×5 pairwise cosine similarity matrix across languages
+6. For each text, measure cosine similarity and Euclidean distance from English to each translation
+7. Compute aggregate statistics: per-language similarity distributions, centroid distances
+8. Save results as a timestamped immutable run
 
 ## Metrics
 
