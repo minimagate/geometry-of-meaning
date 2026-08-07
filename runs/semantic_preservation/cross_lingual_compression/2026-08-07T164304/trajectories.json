@@ -1,0 +1,1442 @@
+{
+  "darwin_natural_selection|en": {
+    "text_id": "darwin_natural_selection",
+    "language": "en",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.2718135714530945,
+      0.31942903995513916,
+      0.3258861303329468
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.2718135714530945,
+      0.5912426114082336,
+      0.9171287417411804
+    ],
+    "phase_transition_score": 1.065999075705275
+  },
+  "darwin_natural_selection|it": {
+    "text_id": "darwin_natural_selection",
+    "language": "it",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.24849370121955872,
+      0.3522793650627136,
+      0.38222816586494446
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.24849370121955872,
+      0.6007730662822723,
+      0.9830012321472168
+    ],
+    "phase_transition_score": 1.1665137947895299
+  },
+  "darwin_natural_selection|zh": {
+    "text_id": "darwin_natural_selection",
+    "language": "zh",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.16183315217494965,
+      0.2819909155368805,
+      0.36469566822052
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.16183315217494965,
+      0.44382406771183014,
+      0.8085197359323502
+    ],
+    "phase_transition_score": 1.353197647550194
+  },
+  "darwin_natural_selection|ja": {
+    "text_id": "darwin_natural_selection",
+    "language": "ja",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.327495276927948,
+      0.26963114738464355,
+      0.48703888058662415
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.327495276927948,
+      0.5971264243125916,
+      1.0841653048992157
+    ],
+    "phase_transition_score": 1.347688064870973
+  },
+  "darwin_natural_selection|da": {
+    "text_id": "darwin_natural_selection",
+    "language": "da",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.23694194853305817,
+      0.3374527394771576,
+      0.2910158038139343
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.23694194853305817,
+      0.5743946880102158,
+      0.8654104918241501
+    ],
+    "phase_transition_score": 1.1698011845194756
+  },
+  "declaration_human_equality|en": {
+    "text_id": "declaration_human_equality",
+    "language": "en",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.20182035863399506,
+      0.4041055142879486,
+      0.2775964140892029
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.20182035863399506,
+      0.6059258729219437,
+      0.8835222870111465
+    ],
+    "phase_transition_score": 1.3721403078183485
+  },
+  "declaration_human_equality|it": {
+    "text_id": "declaration_human_equality",
+    "language": "it",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.2231624573469162,
+      0.3293277323246002,
+      0.30848926305770874
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.2231624573469162,
+      0.5524901896715164,
+      0.8609794527292252
+    ],
+    "phase_transition_score": 1.1475107725764946
+  },
+  "declaration_human_equality|zh": {
+    "text_id": "declaration_human_equality",
+    "language": "zh",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.23421035706996918,
+      0.32402193546295166,
+      0.29284176230430603
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.23421035706996918,
+      0.5582322925329208,
+      0.8510740548372269
+    ],
+    "phase_transition_score": 1.1421636000580098
+  },
+  "declaration_human_equality|ja": {
+    "text_id": "declaration_human_equality",
+    "language": "ja",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.1954912394285202,
+      0.3703683316707611,
+      0.42220985889434814
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.1954912394285202,
+      0.5658595710992813,
+      0.9880694299936295
+    ],
+    "phase_transition_score": 1.2819236566110652
+  },
+  "declaration_human_equality|da": {
+    "text_id": "declaration_human_equality",
+    "language": "da",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.2553936243057251,
+      0.30099520087242126,
+      0.3388844430446625
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.2553936243057251,
+      0.5563888251781464,
+      0.8952732682228088
+    ],
+    "phase_transition_score": 1.135578783841193
+  },
+  "descartes_methodic_doubt|en": {
+    "text_id": "descartes_methodic_doubt",
+    "language": "en",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.26509276032447815,
+      0.4064785838127136,
+      0.32012689113616943
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.26509276032447815,
+      0.6715713441371918,
+      0.9916982352733612
+    ],
+    "phase_transition_score": 1.229643966344262
+  },
+  "descartes_methodic_doubt|it": {
+    "text_id": "descartes_methodic_doubt",
+    "language": "it",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.2842046320438385,
+      0.401730477809906,
+      0.3760053217411041
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.2842046320438385,
+      0.6859351098537445,
+      1.0619404315948486
+    ],
+    "phase_transition_score": 1.1348955153913214
+  },
+  "descartes_methodic_doubt|zh": {
+    "text_id": "descartes_methodic_doubt",
+    "language": "zh",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.21739079058170319,
+      0.22460412979125977,
+      0.28141650557518005
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.21739079058170319,
+      0.44199492037296295,
+      0.723411425948143
+    ],
+    "phase_transition_score": 1.167039234442586
+  },
+  "descartes_methodic_doubt|ja": {
+    "text_id": "descartes_methodic_doubt",
+    "language": "ja",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.26228269934654236,
+      0.28980785608291626,
+      0.42023876309394836
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.26228269934654236,
+      0.5520905554294586,
+      0.972329318523407
+    ],
+    "phase_transition_score": 1.2965939268358035
+  },
+  "descartes_methodic_doubt|da": {
+    "text_id": "descartes_methodic_doubt",
+    "language": "da",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.25898316502571106,
+      0.3249775171279907,
+      0.41999056935310364
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.25898316502571106,
+      0.5839606821537018,
+      1.0039512515068054
+    ],
+    "phase_transition_score": 1.2550128366972508
+  },
+  "douglass_learning_to_read|en": {
+    "text_id": "douglass_learning_to_read",
+    "language": "en",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.3066096603870392,
+      0.3409540057182312,
+      0.31682857871055603
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.3066096603870392,
+      0.6475636661052704,
+      0.9643922448158264
+    ],
+    "phase_transition_score": 1.0606286214485616
+  },
+  "douglass_learning_to_read|it": {
+    "text_id": "douglass_learning_to_read",
+    "language": "it",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.2923968434333801,
+      0.2955557703971863,
+      0.31249430775642395
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.2923968434333801,
+      0.5879526138305664,
+      0.9004469215869904
+    ],
+    "phase_transition_score": 1.0411306883219806
+  },
+  "douglass_learning_to_read|zh": {
+    "text_id": "douglass_learning_to_read",
+    "language": "zh",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.16454413533210754,
+      0.22281868755817413,
+      0.3642781376838684
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.16454413533210754,
+      0.3873628228902817,
+      0.7516409605741501
+    ],
+    "phase_transition_score": 1.4539314252070965
+  },
+  "douglass_learning_to_read|ja": {
+    "text_id": "douglass_learning_to_read",
+    "language": "ja",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.22484402358531952,
+      0.23642490804195404,
+      0.47322458028793335
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.22484402358531952,
+      0.46126893162727356,
+      0.9344935119152069
+    ],
+    "phase_transition_score": 1.5191905805255252
+  },
+  "douglass_learning_to_read|da": {
+    "text_id": "douglass_learning_to_read",
+    "language": "da",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.2623528838157654,
+      0.3363891839981079,
+      0.289417028427124
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.2623528838157654,
+      0.5987420678138733,
+      0.8881590962409973
+    ],
+    "phase_transition_score": 1.1362463732741992
+  },
+  "einstein_special_relativity|en": {
+    "text_id": "einstein_special_relativity",
+    "language": "en",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.2807338535785675,
+      0.2841256558895111,
+      0.32328301668167114
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.2807338535785675,
+      0.5648595094680786,
+      0.8881425261497498
+    ],
+    "phase_transition_score": 1.091997085478471
+  },
+  "einstein_special_relativity|it": {
+    "text_id": "einstein_special_relativity",
+    "language": "it",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.22109584510326385,
+      0.25904959440231323,
+      0.3829413056373596
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.22109584510326385,
+      0.4801454395055771,
+      0.8630867451429367
+    ],
+    "phase_transition_score": 1.3310642567240687
+  },
+  "einstein_special_relativity|zh": {
+    "text_id": "einstein_special_relativity",
+    "language": "zh",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.19813849031925201,
+      0.24819819629192352,
+      0.34086063504219055
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.19813849031925201,
+      0.44633668661117554,
+      0.7871973216533661
+    ],
+    "phase_transition_score": 1.2990159862063844
+  },
+  "einstein_special_relativity|ja": {
+    "text_id": "einstein_special_relativity",
+    "language": "ja",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.21916872262954712,
+      0.26896730065345764,
+      0.46506938338279724
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.21916872262954712,
+      0.48813602328300476,
+      0.953205406665802
+    ],
+    "phase_transition_score": 1.4637014649640545
+  },
+  "einstein_special_relativity|da": {
+    "text_id": "einstein_special_relativity",
+    "language": "da",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.2509520351886749,
+      0.24719436466693878,
+      0.27988821268081665
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.2509520351886749,
+      0.4981463998556137,
+      0.7780346125364304
+    ],
+    "phase_transition_score": 1.0792124469952598
+  },
+  "hamlet_to_be_or_not_to_be|en": {
+    "text_id": "hamlet_to_be_or_not_to_be",
+    "language": "en",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.3050720691680908,
+      0.4104742705821991,
+      0.3940660059452057
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.3050720691680908,
+      0.7155463397502899,
+      1.1096123456954956
+    ],
+    "phase_transition_score": 1.1097774970904384
+  },
+  "hamlet_to_be_or_not_to_be|it": {
+    "text_id": "hamlet_to_be_or_not_to_be",
+    "language": "it",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.2519088685512543,
+      0.342011421918869,
+      0.37601396441459656
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.2519088685512543,
+      0.5939202904701233,
+      0.9699342548847198
+    ],
+    "phase_transition_score": 1.1630086137929643
+  },
+  "hamlet_to_be_or_not_to_be|zh": {
+    "text_id": "hamlet_to_be_or_not_to_be",
+    "language": "zh",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.2858146131038666,
+      0.25684666633605957,
+      0.3042678236961365
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.2858146131038666,
+      0.5426612794399261,
+      0.8469291031360626
+    ],
+    "phase_transition_score": 1.0777802624900044
+  },
+  "hamlet_to_be_or_not_to_be|ja": {
+    "text_id": "hamlet_to_be_or_not_to_be",
+    "language": "ja",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.2693137526512146,
+      0.32190200686454773,
+      0.324344664812088
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.2693137526512146,
+      0.5912157595157623,
+      0.9155604243278503
+    ],
+    "phase_transition_score": 1.0627741966354731
+  },
+  "hamlet_to_be_or_not_to_be|da": {
+    "text_id": "hamlet_to_be_or_not_to_be",
+    "language": "da",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.31963881850242615,
+      0.337851345539093,
+      0.34572580456733704
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.31963881850242615,
+      0.6574901640415192,
+      1.0032159686088562
+    ],
+    "phase_transition_score": 1.03385257627054
+  },
+  "invictus|en": {
+    "text_id": "invictus",
+    "language": "en",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.27364522218704224,
+      0.27711015939712524,
+      0.32625922560691833
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.27364522218704224,
+      0.5507553815841675,
+      0.8770146071910858
+    ],
+    "phase_transition_score": 1.1160334945339134
+  },
+  "invictus|it": {
+    "text_id": "invictus",
+    "language": "it",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.27947327494621277,
+      0.309500515460968,
+      0.43030738830566406
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.27947327494621277,
+      0.5889737904071808,
+      1.0192811787128448
+    ],
+    "phase_transition_score": 1.2665025038009408
+  },
+  "invictus|zh": {
+    "text_id": "invictus",
+    "language": "zh",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.2666621506214142,
+      0.19540710747241974,
+      0.34303250908851624
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.2666621506214142,
+      0.4620692580938339,
+      0.8051017671823502
+    ],
+    "phase_transition_score": 1.2782204302781823
+  },
+  "invictus|ja": {
+    "text_id": "invictus",
+    "language": "ja",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.33733072876930237,
+      0.25448164343833923,
+      0.4016508460044861
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.33733072876930237,
+      0.5918123722076416,
+      0.9934632182121277
+    ],
+    "phase_transition_score": 1.2128808756321492
+  },
+  "invictus|da": {
+    "text_id": "invictus",
+    "language": "da",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.30295616388320923,
+      0.29817435145378113,
+      0.3059017062187195
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.30295616388320923,
+      0.6011305153369904,
+      0.9070322215557098
+    ],
+    "phase_transition_score": 1.01176683346722
+  },
+  "marcus_aurelius_control_and_judgment|en": {
+    "text_id": "marcus_aurelius_control_and_judgment",
+    "language": "en",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.21737900376319885,
+      0.31880655884742737,
+      0.3605313301086426
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.21737900376319885,
+      0.5361855626106262,
+      0.8967168927192688
+    ],
+    "phase_transition_score": 1.2061710882305612
+  },
+  "marcus_aurelius_control_and_judgment|it": {
+    "text_id": "marcus_aurelius_control_and_judgment",
+    "language": "it",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.1907098889350891,
+      0.3610977530479431,
+      0.4046807885169983
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.1907098889350891,
+      0.5518076419830322,
+      0.9564884305000305
+    ],
+    "phase_transition_score": 1.2692703088068937
+  },
+  "marcus_aurelius_control_and_judgment|zh": {
+    "text_id": "marcus_aurelius_control_and_judgment",
+    "language": "zh",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.19757583737373352,
+      0.31324303150177,
+      0.27070826292037964
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.19757583737373352,
+      0.5108188688755035,
+      0.7815271317958832
+    ],
+    "phase_transition_score": 1.202426705706163
+  },
+  "marcus_aurelius_control_and_judgment|ja": {
+    "text_id": "marcus_aurelius_control_and_judgment",
+    "language": "ja",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.2715120017528534,
+      0.3174908459186554,
+      0.40202435851097107
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.2715120017528534,
+      0.5890028476715088,
+      0.9910272061824799
+    ],
+    "phase_transition_score": 1.21699290191922
+  },
+  "marcus_aurelius_control_and_judgment|da": {
+    "text_id": "marcus_aurelius_control_and_judgment",
+    "language": "da",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.28387317061424255,
+      0.2851090729236603,
+      0.4654898941516876
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.28387317061424255,
+      0.5689822435379028,
+      1.0344721376895905
+    ],
+    "phase_transition_score": 1.3499345526830375
+  },
+  "metamorphosis_opening|en": {
+    "text_id": "metamorphosis_opening",
+    "language": "en",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.24819621443748474,
+      0.26911115646362305,
+      0.30224576592445374
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.24819621443748474,
+      0.5173073709011078,
+      0.8195531368255615
+    ],
+    "phase_transition_score": 1.106380119885206
+  },
+  "metamorphosis_opening|it": {
+    "text_id": "metamorphosis_opening",
+    "language": "it",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.1748313307762146,
+      0.26493337750434875,
+      0.31578943133354187
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.1748313307762146,
+      0.43976470828056335,
+      0.7555541396141052
+    ],
+    "phase_transition_score": 1.2538721506899404
+  },
+  "metamorphosis_opening|zh": {
+    "text_id": "metamorphosis_opening",
+    "language": "zh",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.19458819925785065,
+      0.22823971509933472,
+      0.3086804747581482
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.19458819925785065,
+      0.42282791435718536,
+      0.7315083891153336
+    ],
+    "phase_transition_score": 1.2659341137486804
+  },
+  "metamorphosis_opening|ja": {
+    "text_id": "metamorphosis_opening",
+    "language": "ja",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.20286515355110168,
+      0.20820364356040955,
+      0.4503926932811737
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.20286515355110168,
+      0.41106879711151123,
+      0.8614614903926849
+    ],
+    "phase_transition_score": 1.5684718294576416
+  },
+  "metamorphosis_opening|da": {
+    "text_id": "metamorphosis_opening",
+    "language": "da",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.22582221031188965,
+      0.28246378898620605,
+      0.23628495633602142
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.22582221031188965,
+      0.5082859992980957,
+      0.7445709556341171
+    ],
+    "phase_transition_score": 1.138093502770241
+  },
+  "odyssey_opening_invocation|en": {
+    "text_id": "odyssey_opening_invocation",
+    "language": "en",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.3164241909980774,
+      0.3586941957473755,
+      0.3588617742061615
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.3164241909980774,
+      0.6751183867454529,
+      1.0339801609516144
+    ],
+    "phase_transition_score": 1.0412050088346558
+  },
+  "odyssey_opening_invocation|it": {
+    "text_id": "odyssey_opening_invocation",
+    "language": "it",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.30413106083869934,
+      0.3898157477378845,
+      0.364280104637146
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.30413106083869934,
+      0.6939468085765839,
+      1.0582269132137299
+    ],
+    "phase_transition_score": 1.105100643927264
+  },
+  "odyssey_opening_invocation|zh": {
+    "text_id": "odyssey_opening_invocation",
+    "language": "zh",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.25264039635658264,
+      0.24468781054019928,
+      0.3554023504257202
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.25264039635658264,
+      0.4973282068967819,
+      0.8527305573225021
+    ],
+    "phase_transition_score": 1.2503446043084883
+  },
+  "odyssey_opening_invocation|ja": {
+    "text_id": "odyssey_opening_invocation",
+    "language": "ja",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.290043443441391,
+      0.25867584347724915,
+      0.42197951674461365
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.290043443441391,
+      0.5487192869186401,
+      0.9706988036632538
+    ],
+    "phase_transition_score": 1.3041517569161536
+  },
+  "odyssey_opening_invocation|da": {
+    "text_id": "odyssey_opening_invocation",
+    "language": "da",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.3459514379501343,
+      0.34647631645202637,
+      0.2671926021575928
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.3459514379501343,
+      0.6924277544021606,
+      0.9596203565597534
+    ],
+    "phase_transition_score": 1.0831668401475352
+  },
+  "pride_and_prejudice_opening|en": {
+    "text_id": "pride_and_prejudice_opening",
+    "language": "en",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.23034259676933289,
+      0.345897912979126,
+      0.3152505159378052
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.23034259676933289,
+      0.5762405097484589,
+      0.891491025686264
+    ],
+    "phase_transition_score": 1.1639979641282063
+  },
+  "pride_and_prejudice_opening|it": {
+    "text_id": "pride_and_prejudice_opening",
+    "language": "it",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.1947403848171234,
+      0.36109352111816406,
+      0.3837592303752899
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.1947403848171234,
+      0.5558339059352875,
+      0.9395931363105774
+    ],
+    "phase_transition_score": 1.2252938496831687
+  },
+  "pride_and_prejudice_opening|zh": {
+    "text_id": "pride_and_prejudice_opening",
+    "language": "zh",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.20987959206104279,
+      0.2482152283191681,
+      0.3489672541618347
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.20987959206104279,
+      0.4580948203802109,
+      0.8070620745420456
+    ],
+    "phase_transition_score": 1.2971762588144806
+  },
+  "pride_and_prejudice_opening|ja": {
+    "text_id": "pride_and_prejudice_opening",
+    "language": "ja",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.23309151828289032,
+      0.277225136756897,
+      0.46346279978752136
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.23309151828289032,
+      0.5103166550397873,
+      0.9737794548273087
+    ],
+    "phase_transition_score": 1.4278267963757125
+  },
+  "pride_and_prejudice_opening|da": {
+    "text_id": "pride_and_prejudice_opening",
+    "language": "da",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.23531781136989594,
+      0.22885075211524963,
+      0.37822064757347107
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.23531781136989594,
+      0.46416856348514557,
+      0.8423892110586166
+    ],
+    "phase_transition_score": 1.3469568791063957
+  },
+  "wollstonecraft_womens_education|en": {
+    "text_id": "wollstonecraft_womens_education",
+    "language": "en",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.22565267980098724,
+      0.39089763164520264,
+      0.367961585521698
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.22565267980098724,
+      0.6165503114461899,
+      0.9845118969678879
+    ],
+    "phase_transition_score": 1.1911414159110543
+  },
+  "wollstonecraft_womens_education|it": {
+    "text_id": "wollstonecraft_womens_education",
+    "language": "it",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.18812812864780426,
+      0.3961159884929657,
+      0.4209032654762268
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.18812812864780426,
+      0.58424411714077,
+      1.0051473826169968
+    ],
+    "phase_transition_score": 1.2562434308301091
+  },
+  "wollstonecraft_womens_education|zh": {
+    "text_id": "wollstonecraft_womens_education",
+    "language": "zh",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.24360893666744232,
+      0.24615851044654846,
+      0.32541605830192566
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.24360893666744232,
+      0.4897674471139908,
+      0.8151835054159164
+    ],
+    "phase_transition_score": 1.1975808740237985
+  },
+  "wollstonecraft_womens_education|ja": {
+    "text_id": "wollstonecraft_womens_education",
+    "language": "ja",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.2786061763763428,
+      0.4038752019405365,
+      0.4484219253063202
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.2786061763763428,
+      0.6824813783168793,
+      1.1309033036231995
+    ],
+    "phase_transition_score": 1.1895497799051293
+  },
+  "wollstonecraft_womens_education|da": {
+    "text_id": "wollstonecraft_womens_education",
+    "language": "da",
+    "model": "multilingual-e5-large",
+    "levels": [
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "step_displacements": [
+      0.0,
+      0.18825137615203857,
+      0.3409515619277954,
+      0.37593990564346313
+    ],
+    "cumulative_trajectory_length": [
+      0.0,
+      0.18825137615203857,
+      0.529202938079834,
+      0.9051428437232971
+    ],
+    "phase_transition_score": 1.2460129633142907
+  }
+}

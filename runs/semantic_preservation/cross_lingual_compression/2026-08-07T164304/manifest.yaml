@@ -1,0 +1,24 @@
+compression_levels:
+- 1.0
+- 0.5
+- 0.25
+- 0.125
+created_at: '2026-08-07T16:43:36.446937+00:00'
+embedding_models:
+- multilingual-e5-large
+experiment: cross_lingual_compression
+git_commit: 35a18c0231d26e64365699059a0e75be83a11df7
+languages:
+- en
+- it
+- zh
+- ja
+- da
+num_enabled_texts: 12
+num_variants: 240
+prompt_hashes:
+  generate_compressed.md: 5f33194aef6f342aab8b2826e6af5192bec041213b8470fd3c0bc0457168d348
+random_seed: 42
+reference_language: en
+research_area: semantic_preservation
+run_id: 2026-08-07T164304

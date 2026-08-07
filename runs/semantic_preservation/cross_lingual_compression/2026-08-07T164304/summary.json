@@ -1,0 +1,89 @@
+{
+  "description": "Cross-lingual compression — semantic decay under progressive compression",
+  "num_variants": 240,
+  "num_texts": 12,
+  "num_languages": 5,
+  "num_models": 1,
+  "mean_cosine_similarity_by_language_level": {
+    "en": {
+      "0.125": 0.88901,
+      "0.25": 0.917121,
+      "0.5": 0.965058,
+      "1.0": 1.0
+    },
+    "it": {
+      "0.125": 0.887859,
+      "0.25": 0.922754,
+      "0.5": 0.970791,
+      "1.0": 1.0
+    },
+    "zh": {
+      "0.125": 0.919633,
+      "0.25": 0.949394,
+      "0.5": 0.975352,
+      "1.0": 1.0
+    },
+    "ja": {
+      "0.125": 0.876023,
+      "0.25": 0.933184,
+      "0.5": 0.965411,
+      "1.0": 1.0
+    },
+    "da": {
+      "0.125": 0.889892,
+      "0.25": 0.92685,
+      "0.5": 0.964322,
+      "1.0": 1.0
+    }
+  },
+  "mean_cosine_similarity_by_level": {
+    "1.0": 1.0,
+    "0.5": 0.968187,
+    "0.25": 0.929861,
+    "0.125": 0.892483
+  },
+  "mean_phase_transition_score_by_language": [
+    {
+      "language": "da",
+      "phase_transition_score": 1.16547
+    },
+    {
+      "language": "en",
+      "phase_transition_score": 1.14626
+    },
+    {
+      "language": "it",
+      "phase_transition_score": 1.196701
+    },
+    {
+      "language": "ja",
+      "phase_transition_score": 1.324312
+    },
+    {
+      "language": "zh",
+      "phase_transition_score": 1.248734
+    }
+  ],
+  "mean_cumulative_trajectory_length_by_language": [
+    {
+      "language": "da",
+      "cumulative_trajectory_length": 0.433896
+    },
+    {
+      "language": "en",
+      "cumulative_trajectory_length": 0.451446
+    },
+    {
+      "language": "it",
+      "cumulative_trajectory_length": 0.440474
+    },
+    {
+      "language": "ja",
+      "cumulative_trajectory_length": 0.447298
+    },
+    {
+      "language": "zh",
+      "cumulative_trajectory_length": 0.371877
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+compression:
+  descriptions:
+    0.125: 'Telegraphic keywords — approximately 12.5% of the original word count.
+      Reduce to key concepts, named entities, and essential predicates only. Final
+      output should resemble a sequence of keywords.
+
+      '
+    0.25: 'Very short summary — approximately 25% of the original word count. Preserve
+      only the core proposition. Collapse sub-clauses.
+
+      '
+    0.5: 'Reduce to approximately 50% of the original word count. Remove adverbs and
+      adjectives first, then trim less essential clauses. The core meaning and argument
+      structure must survive.
+
+      '
+    1.0: Verbatim copy — no changes to the source text.
+  levels:
+  - 1.0
+  - 0.5
+  - 0.25
+  - 0.125
+embedding_models:
+- multilingual-e5-large
+experiment:
+  description: 'Cross-lingual meaning-preservation-under-compression measurement.
+    Compresses all 12 canonical texts in 5 languages at 4 compression levels (100%,
+    50%, 25%, 12.5%), then measures how semantic similarity degrades across languages.
+    The goal is to determine whether certain languages preserve meaning better than
+    others when text is progressively shortened.
+
+    '
+  id: cross_lingual_compression
+  research_area: semantic_preservation
+languages:
+- en
+- it
+- zh
+- ja
+- da
+metrics:
+- cosine_similarity
+- euclidean_distance
+- step_displacements
+- cumulative_trajectory_length
+- phase_transition_score
+output:
+  runs_dir: runs/semantic_preservation/cross_lingual_compression
+  variants_dir: data/variants/semantic_preservation/cross_lingual_compression/v0.1.0
+random_seed: 42
+reference_language: en
