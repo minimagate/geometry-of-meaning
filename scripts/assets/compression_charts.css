@@ -1,0 +1,64 @@
+.radar-chart .modebar,
+.line-chart .modebar,
+.pca-chart .modebar {
+  opacity: 0;
+  transition: opacity 120ms ease;
+}
+
+.radar-chart:hover .modebar,
+.line-chart:hover .modebar,
+.pca-chart:hover .modebar {
+  opacity: 0.35;
+}
+
+.chart-card h3 {
+  margin: 0 0 3px;
+  color: #151515;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 1.38;
+}
+
+.chart-card .chart-category {
+  margin: 0;
+  color: #888;
+  font-size: 9px;
+  text-transform: capitalize;
+}
+
+.tabs {
+  margin-bottom: 22px;
+}
+
+.tabs,
+.tab {
+  border: 0;
+  background: #fff;
+}
+
+.tab--active {
+  background: #fff;
+}
+
+.tab {
+  color: #777;
+  font-family: var(--font-sans);
+  font-size: 12px;
+  letter-spacing: 0.01em;
+  border-radius: 0;
+}
+
+.tab--active {
+  color: #151515;
+  font-weight: 500;
+}
+
+.pca-card {
+  grid-column: 1 / -1;
+}
+
+.pca-card .figure-header {
+  min-height: 0;
+  padding: 0 0 12px;
+}
